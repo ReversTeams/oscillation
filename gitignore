@@ -37,9 +37,6 @@ embeddium-*.json
 indigo-renderer.properties
 config/world_preview
 patchouli_data.json
-/config/**/*client.json
-/config/**/*client.toml
-/config/**/*client.properties
 /config/inventoryprofilesnext/*
 /config/chunky/
 /config/packetfixer.properties
