@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "timesavers"
+	group: ""
+	icon: "botania:cosmetic_clock_eye"
+	id: "65EE9128EA513D89"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Timesavers"
+}

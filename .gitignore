@@ -2,6 +2,8 @@
 blueprints
 fancymenu_data
 journeymap/data
+# idk if this should be ignored or not but it looks like it should
+journeymap/icon
 local
 tacz_backup
 rhino.local.properties

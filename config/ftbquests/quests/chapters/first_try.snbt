@@ -1,0 +1,176 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "first_try"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:iron_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "100828D0D32BA349"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"First of all, thank you for helping playtest Oscillation! This version of the modpack is, obviously, very rough, so the fact that you're willing to try it out at this stage is greatly appreciated."
+				""
+				"To save you some time, we'll be giving you this starter kit, as well as the quest category \"Timesavers\" so you don't have to waste your time doing vanilla stuff that's easy but time consuming."
+			]
+			icon: "minecraft:spruce_sign"
+			id: "43A395FB96AAE476"
+			rewards: [
+				{
+					id: "04E5B29B78EDFF76"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DF80F4806030747"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6111C0D7EC2E4626"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D9C992213E0861A"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "460566349B7AA4AB"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1132B363704F005A"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "374E79E57DCD376D"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60EF517B85B9BDF9"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25B77CEAFF449D4F"
+					item: "minecraft:light_gray_bed"
+					type: "item"
+				}
+				{
+					id: "0E005871312AB2D9"
+					item: {
+						Count: 1
+						id: "sophisticatedbackpacks:gold_backpack"
+						tag: {
+							inventorySlots: 81
+							upgradeSlots: 3
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "65C8ECF1AE426B20"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A7FD15E255459AF"
+				title: "Welcome!"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43A395FB96AAE476"]
+			description: [
+				"As this is the proof of concept for the modpack, there is very little implementation when it comes to preventing your progression, even though that's a vital part of the pack's identity."
+				""
+				"So, for the purposes of this test, please don't craft any core modded progression outside of what is allowed in this questline! Of course, you can use modded amenities, but use common sense. Thank you!"
+			]
+			icon: {
+				Count: 1
+				id: "eidolon:chant_scroll"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2C54677E1B38562F"
+			rewards: [{
+				id: "4D9DAD2668F40AF0"
+				item: "bosses_of_mass_destruction:void_lily"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EC58C14BE64CC9E"
+				title: "Important Info..."
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+	]
+	title: "First Try"
+}
