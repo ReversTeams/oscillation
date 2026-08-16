@@ -88,7 +88,7 @@
 	#How long before the Voidborn can get hit again (in ticks)
 	VoidbornHitCooldown = 60.0
 	#If bosses should go back to idling when there are no players nearby
-	BossIdles = true
+	BossIdles = false
 	#If brain fog should be applied to the player when in the misted remnants
 	DoBrainFog = true
 	#If the false hydra should remove brain fog when it is killed
