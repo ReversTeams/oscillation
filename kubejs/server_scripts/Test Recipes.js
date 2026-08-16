@@ -63,14 +63,16 @@ ServerEvents.recipes(event => {
   event.shaped(
   Item.of('irons_spellbooks:magic_cloth'), // arg 1: output
   [
-    'AA ',
-    'AA ', // arg 2: the shape (array of strings)
+    '   ',
+    'AAA', // arg 2: the shape (array of strings)
     '   '
   ],
   {
     A: 'botania:mana_string'
   }
 )
+
+
 
 
 
