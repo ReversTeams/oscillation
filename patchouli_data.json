@@ -1,5 +1,13 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "botania:lexicon": {
+      "viewedEntries": [
+        "botania:basics/apothecary"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }
