@@ -1,0 +1,17 @@
+{
+	id: "c348bf85-0fa9-4582-b8b5-f31e25045f21"
+	type: "player"
+	player_name: "MysticQuest"
+	ranks: {
+		c348bf85-0fa9-4582-b8b5-f31e25045f21: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "MysticQuest"
+		"ftbteams:description": ""
+		"ftbteams:color": "#7559FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
