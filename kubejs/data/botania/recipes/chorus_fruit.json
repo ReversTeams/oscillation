@@ -1,0 +1,14 @@
+{
+  "type": "botania:petal_apothecary",
+  "ingredients": [
+    {
+      "item": "integrateddynamics:proto_chorus"
+    }
+  ],
+  "output": {
+    "item": "minecraft:chorus_fruit"
+  },
+  "reagent": {
+    "tag": "botania:seed_apothecary_reagent"
+  }
+}

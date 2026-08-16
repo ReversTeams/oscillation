@@ -1,0 +1,12 @@
+{
+  "type": "integrateddynamics:mechanical_drying_basin",
+  "item": "minecraft:sweet_berries",
+  "fluid": {
+    "fluid": "integrateddynamics:menril_resin",
+    "amount": 250
+  },
+  "duration": 10,
+  "result": {
+    "item": "integrateddynamics:menril_berries"
+  }
+}
