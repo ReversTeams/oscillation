@@ -7,6 +7,348 @@
 	id: "65EE9128EA513D89"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: [""]
+			icon: { Count: 16, id: "minecraft:dirt" }
+			id: "1445D6F7789A63F0"
+			rewards: [{
+				count: 64
+				id: "469A4ED0733CCA7D"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "0FC0F739BED54DD6"
+				item: { Count: 16, id: "minecraft:dirt" }
+				type: "item"
+			}]
+			title: "Dirt for Steak"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: "botania:divining_rod"
+			id: "305E695F5CE668ED"
+			rewards: [{
+				id: "0F3B3408306451FF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:poison_arrow"
+								index: 0
+								level: 4
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "62245B93F6315305"
+				item: "botania:divining_rod"
+				type: "item"
+			}]
+			title: "Rod for Poison Arrow"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: "botania:tangleberrie"
+			id: "0913E76DA2B5A234"
+			rewards: [{
+				id: "3A56CF410385B6EF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:root"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1C9FCC146D63D596"
+				item: "botania:tangleberrie"
+				type: "item"
+			}]
+			title: "Tangleberrie for root"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "534C77F33A23EDCF"
+			rewards: [{
+				id: "5C087F03E861947E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:blight"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "245C6D3E000D2A8C"
+				item: "botania:temperance_stone"
+				type: "item"
+			}]
+			title: "Stone for Blight"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "796AD8604DB70583"
+			rewards: [{
+				id: "20BBD4E6B2D8E325"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:firefly_swarm"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0B788D4F8D88F3E2"
+				item: "botania:solegnolia"
+				type: "item"
+			}]
+			title: "Solegnolia for Fireflies"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "6F946D42A30F4B7F"
+			rewards: [{
+				id: "5614E28CC294F82E"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2E322320A473C427"
+				item: "cataclysm:lacrima"
+				type: "item"
+			}]
+			title: "Lacrima for Unbreaking"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "6F31F37AD5010329"
+			rewards: [{
+				id: "27D20C71918CC5DE"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7D8DA1C376F0E45D"
+				item: "cataclysm:lacrima"
+				type: "item"
+			}]
+			title: "Lacrima for Mending"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "53EBB408536B80D3"
+			rewards: [{
+				id: "4488A53BA6A15A9E"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "49E7C09B34A71A50"
+				item: "cataclysm:lacrima"
+				type: "item"
+			}]
+			title: "Lacrima for Protection"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "2187D785F8B3CCE7"
+			rewards: [{
+				id: "62960521835CA2A1"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "658C20F69429C1B6"
+				item: "cataclysm:lacrima"
+				type: "item"
+			}]
+			title: "Lacrima for Sharpness"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "5C1040E6EFFDFC50"
+			rewards: [{
+				id: "326758AFCBBCB54E"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:power"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6BB3686BB834F185"
+				item: "cataclysm:lacrima"
+				type: "item"
+			}]
+			title: "Lacrima for Power"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "16D39E92813E89A7"
+			rewards: [{
+				id: "30FD5C69FB674DBA"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:infinity"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "70A46ABE3BE1AC45"
+				item: "cataclysm:lacrima"
+				type: "item"
+			}]
+			title: "Lacrima for Infinity"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "5041891F89C1AA17"
+			rewards: [{
+				count: 16
+				id: "7FE496A162149737"
+				item: "the_deep_void:greater_experience_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1C48155ED35F9D8C"
+				item: "cataclysm:lacrima"
+				type: "item"
+			}]
+			title: "Lacrima for EXP"
+			x: 1.0d
+			y: 2.5d
+		}
+	]
 	title: "Timesavers"
 }
