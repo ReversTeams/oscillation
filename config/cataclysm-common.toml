@@ -917,10 +917,10 @@
 		[mobs.scylla.cap_config]
 			#Damage Cap
 			#Range: 0.0 ~ 1000000.0
-			damage_cap = 21.0
+			damage_cap = 25.0
 			#Dps Cap
 			#Range: 1.0 ~ 1000000.0
-			dps_cap = 13.0
+			dps_cap = 35.0
 			#DPS Limit Time
 			#Range: 1 ~ 100
 			dps_limit_time = 20

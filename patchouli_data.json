@@ -4,7 +4,10 @@
   "bookData": {
     "botania:lexicon": {
       "viewedEntries": [
-        "botania:basics/apothecary"
+        "botania:basics/apothecary",
+        "botania:tools/livingwood_bow",
+        "botania:tools/thorn_chakram",
+        "botania:tools/crafting_halo"
       ],
       "bookmarks": [],
       "completedManualQuests": []

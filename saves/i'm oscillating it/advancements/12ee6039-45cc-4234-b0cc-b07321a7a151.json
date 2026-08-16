@@ -447,15 +447,117 @@
     },
     "done": true
   },
+  "biomancy:recipes/biomancy/decomposing/rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2026-08-15 22:21:18 -0700"
+    },
+    "done": true
+  },
   "botania:challenge/root": {
     "criteria": {
       "flower": "2026-08-15 22:26:10 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
+  "botania:recipes/tools/flower_bag": {
     "criteria": {
-      "has_light_gray_terracotta": "2026-08-15 22:45:57 -0700"
+      "has_item": "2026-08-15 22:26:10 -0700"
+    },
+    "done": true
+  },
+  "botania:main/flower_pickup_lexicon": {
+    "criteria": {
+      "flower": "2026-08-15 22:26:10 -0700"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/purple_shiny_flower": {
+    "criteria": {
+      "has_item": "2026-08-15 22:26:10 -0700"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_purple": {
+    "criteria": {
+      "has_item": "2026-08-15 22:26:10 -0700"
+    },
+    "done": true
+  },
+  "botania:main/root": {
+    "criteria": {
+      "flower": "2026-08-15 22:26:10 -0700"
+    },
+    "done": true
+  },
+  "biomancy:recipes/biomancy/digesting/nutrient_paste_from_small_flowers": {
+    "criteria": {
+      "has_small_flowers": "2026-08-15 22:26:10 -0700"
+    },
+    "done": true
+  },
+  "botania:main/flower_pickup": {
+    "criteria": {
+      "flower": "2026-08-15 22:26:10 -0700"
+    },
+    "done": true
+  },
+  "botania:main/terrasteel_pickup_lexicon": {
+    "criteria": {
+      "elven_lexicon": "2026-08-15 22:31:22 -0700"
+    },
+    "done": true
+  },
+  "botania:main/runic_altar_pickup": {
+    "criteria": {
+      "elven_lexicon": "2026-08-15 22:31:22 -0700"
+    },
+    "done": true
+  },
+  "botania:main/pure_daisy_pickup": {
+    "criteria": {
+      "elven_lexicon": "2026-08-15 22:31:22 -0700"
+    },
+    "done": true
+  },
+  "botania:main/apothecary_pickup": {
+    "criteria": {
+      "elven_lexicon": "2026-08-15 22:31:22 -0700"
+    },
+    "done": true
+  },
+  "botania:main/elf_lexicon_pickup": {
+    "criteria": {
+      "lexicon": "2026-08-15 22:31:22 -0700"
+    },
+    "done": true
+  },
+  "botania:main/mana_pool_pickup_lexicon": {
+    "criteria": {
+      "elven_lexicon": "2026-08-15 22:31:22 -0700"
+    },
+    "done": true
+  },
+  "botania:main/lexicon_use": {
+    "criteria": {
+      "use_lexicon": "2026-08-15 22:31:33 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2026-08-15 22:40:43 -0700"
+    },
+    "done": true
+  },
+  "biomancy:recipes/biomancy/decomposing/clay": {
+    "criteria": {
+      "has_clay": "2026-08-15 22:40:43 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2026-08-15 22:41:24 -0700"
     },
     "done": true
   },
@@ -468,12 +570,6 @@
   "minecraft:recipes/building_blocks/black_terracotta": {
     "criteria": {
       "has_terracotta": "2026-08-15 22:42:47 -0700"
-    },
-    "done": true
-  },
-  "botania:main/terrasteel_pickup_lexicon": {
-    "criteria": {
-      "elven_lexicon": "2026-08-15 22:31:22 -0700"
     },
     "done": true
   },
@@ -501,69 +597,15 @@
     },
     "done": true
   },
-  "botania:recipes/tools/flower_bag": {
-    "criteria": {
-      "has_item": "2026-08-15 22:26:10 -0700"
-    },
-    "done": true
-  },
-  "botania:main/runic_altar_pickup": {
-    "criteria": {
-      "elven_lexicon": "2026-08-15 22:31:22 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/terracotta": {
-    "criteria": {
-      "has_clay_block": "2026-08-15 22:40:43 -0700"
-    },
-    "done": true
-  },
-  "mekanism:energy_transport": {
-    "criteria": {
-      "basic_universal_cable": "2026-08-15 22:44:18 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/orange_terracotta": {
     "criteria": {
       "has_terracotta": "2026-08-15 22:42:47 -0700"
     },
     "done": true
   },
-  "botania:main/flower_pickup_lexicon": {
-    "criteria": {
-      "flower": "2026-08-15 22:26:10 -0700"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/purple_shiny_flower": {
-    "criteria": {
-      "has_item": "2026-08-15 22:26:10 -0700"
-    },
-    "done": true
-  },
-  "biomancy:recipes/biomancy/decomposing/rotten_flesh": {
-    "criteria": {
-      "has_rotten_flesh": "2026-08-15 22:21:18 -0700"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/petal_purple": {
-    "criteria": {
-      "has_item": "2026-08-15 22:26:10 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/magenta_terracotta": {
     "criteria": {
       "has_terracotta": "2026-08-15 22:42:47 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2026-08-15 22:41:24 -0700"
     },
     "done": true
   },
@@ -591,27 +633,9 @@
     },
     "done": true
   },
-  "botania:main/root": {
-    "criteria": {
-      "flower": "2026-08-15 22:26:10 -0700"
-    },
-    "done": true
-  },
-  "biomancy:recipes/biomancy/digesting/nutrient_paste_from_small_flowers": {
-    "criteria": {
-      "has_small_flowers": "2026-08-15 22:26:10 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/red_terracotta": {
     "criteria": {
       "has_terracotta": "2026-08-15 22:42:47 -0700"
-    },
-    "done": true
-  },
-  "botania:main/pure_daisy_pickup": {
-    "criteria": {
-      "elven_lexicon": "2026-08-15 22:31:22 -0700"
     },
     "done": true
   },
@@ -621,39 +645,9 @@
     },
     "done": true
   },
-  "mekanism:configurator": {
-    "criteria": {
-      "configurator": "2026-08-15 22:44:58 -0700"
-    },
-    "done": true
-  },
-  "botania:main/apothecary_pickup": {
-    "criteria": {
-      "elven_lexicon": "2026-08-15 22:31:22 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/white_terracotta": {
     "criteria": {
       "has_terracotta": "2026-08-15 22:42:47 -0700"
-    },
-    "done": true
-  },
-  "biomancy:recipes/biomancy/decomposing/clay": {
-    "criteria": {
-      "has_clay": "2026-08-15 22:40:43 -0700"
-    },
-    "done": true
-  },
-  "botania:main/elf_lexicon_pickup": {
-    "criteria": {
-      "lexicon": "2026-08-15 22:31:22 -0700"
-    },
-    "done": true
-  },
-  "botania:main/mana_pool_pickup_lexicon": {
-    "criteria": {
-      "elven_lexicon": "2026-08-15 22:31:22 -0700"
     },
     "done": true
   },
@@ -663,21 +657,117 @@
     },
     "done": true
   },
-  "botania:main/flower_pickup": {
-    "criteria": {
-      "flower": "2026-08-15 22:26:10 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/green_terracotta": {
     "criteria": {
       "has_terracotta": "2026-08-15 22:42:47 -0700"
     },
     "done": true
   },
-  "botania:main/lexicon_use": {
+  "mekanism:energy_transport": {
     "criteria": {
-      "use_lexicon": "2026-08-15 22:31:33 -0700"
+      "basic_universal_cable": "2026-08-15 22:44:18 -0700"
+    },
+    "done": true
+  },
+  "mekanism:configurator": {
+    "criteria": {
+      "configurator": "2026-08-15 22:44:58 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
+    "criteria": {
+      "has_light_gray_terracotta": "2026-08-15 22:45:57 -0700"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/misc/tiny_tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-08-15 23:09:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2026-08-15 23:09:31 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-08-15 23:09:31 -0700"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:recipes/building_blocks/rope_roll": {
+    "criteria": {
+      "has_item": "2026-08-15 23:10:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2026-08-15 23:10:37 -0700"
+    },
+    "done": true
+  },
+  "block_factorys_bosses:recipes/building_blocks/net": {
+    "criteria": {
+      "has_item": "2026-08-15 23:10:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2026-08-15 23:10:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2026-08-15 23:10:37 -0700"
+    },
+    "done": true
+  },
+  "biomancy:recipes/biomancy/bio_forging/cobweb": {
+    "criteria": {
+      "has_string": "2026-08-15 23:10:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2026-08-15 23:10:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2026-08-15 23:10:37 -0700"
+    },
+    "done": true
+  },
+  "biomancy:recipes/biomancy/decomposing/forge_string": {
+    "criteria": {
+      "has_string": "2026-08-15 23:10:37 -0700"
+    },
+    "done": true
+  },
+  "biomancy:recipes/biomancy/bio_forging/string": {
+    "criteria": {
+      "has_string": "2026-08-15 23:10:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2026-08-15 23:10:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2026-08-15 23:10:37 -0700"
     },
     "done": true
   },
