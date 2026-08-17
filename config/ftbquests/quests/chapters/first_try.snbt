@@ -795,6 +795,272 @@
 			x: -2.5d
 			y: 18.5d
 		}
+		{
+			dependencies: ["6F9B9F59CF486332"]
+			description: [
+				"In order to track down your next target, the Magnetic Caves, you'll need to translate its corresponding Cave Tablet (which can be crafted) and turn the Codex you receive from it into a map. "
+				"To begin, place the tablet and a piece of paper into the Spelunkering Table, then click a word. This will allow you to see what the symbols translate to, giving you info required to track down the target word on the left."
+				""
+				"{@pagebreak}"
+				"The translating process can be a bit tricky, so it's recommended that you bring a spare piece of paper in order to write down the letters you've figured out in order to narrow down your possible answers."
+				""
+				"&oor, yknow, you could look it up. if you're a bum."
+			]
+			hide_until_deps_complete: true
+			icon: "alexscaves:spelunkery_table"
+			id: "40371EA4340F90A8"
+			rewards: [
+				{
+					id: "692B321BD47C4924"
+					item: "alexscaves:cave_book"
+					type: "item"
+				}
+				{
+					id: "18C8760A58ADF6E5"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_horse"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7874341FA76EAF12"
+					item: {
+						Count: 1
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:magnetic_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D938C007D22FEEA"
+					item: {
+						Count: 1
+						id: "alexscaves:cave_codex"
+						tag: {
+							CaveBiome: "alexscaves:magnetic_caves"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Codebreaker"
+			x: -2.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["40371EA4340F90A8"]
+			description: ["Now that you have your map, all that's left to do is embark out on your journey! Good luck!"]
+			id: "5607441F4DE09E5B"
+			rewards: [{
+				id: "6F46E17CC3C8FD7C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [{
+								id: "irons_spellbooks:recall"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				icon: {
+					Count: 1
+					id: "otherverse:idol"
+					tag: {
+						entity_type_namespace: "alexscaves"
+						entity_type_path: "teletor"
+					}
+				}
+				id: "10930640C05FF9EB"
+				title: "To the Magnetic Caves!"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["5607441F4DE09E5B"]
+			description: ["The Magnetic Caves are home to a unique material, Neodymium! It comes in 2 variations, Scarlet and Azure. Be sure to harvest a decent bit of it before coming home!"]
+			id: "21AC8A54E3CB3AB2"
+			rewards: [{
+				id: "66F0A336E1D3B65E"
+				item: "alexscaves:telecore"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "737F366DD8F96CF0"
+					item: "alexscaves:scarlet_neodymium_ingot"
+					type: "item"
+				}
+				{
+					id: "219C1DFD0F3738B4"
+					item: "alexscaves:azure_neodymium_ingot"
+					type: "item"
+				}
+			]
+			title: "Neodymium Ingots"
+			x: -2.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["5607441F4DE09E5B"]
+			description: ["&opsst. you should really make one of these for later."]
+			id: "34354001C13057B5"
+			rewards: [{
+				id: "258E85B8E9887714"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "6A1D25C7D0A41ECA"
+				item: "alexscaves:tesla_bulb"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["21AC8A54E3CB3AB2"]
+			id: "4A08D8F39A1F138A"
+			tasks: [{
+				id: "3C7706F3300F6E8B"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 31.0d
+		}
+		{
+			dependencies: ["21AC8A54E3CB3AB2"]
+			description: ["One of the Magnetic Caves' unique exports, the Galena Gauntlet is a rather useful implement that allows the one using it to interact with blocks and mobs from a rather far distance. By putting the gauntlet in your off-hand and wielding a compatible tool with your main hand, you can magnetically control the object from many blocks away!"]
+			id: "24C7EF98D4646ED6"
+			rewards: [
+				{
+					id: "1E85F175BDD34083"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:field_extension"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57037A8AA821F84B"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:crystallization"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "191581317DA3F359"
+				item: {
+					Count: 1
+					id: "alexscaves:galena_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["21AC8A54E3CB3AB2"]
+			description: ["The Resistor Shield is a curious piece of equipment only made available by the magnetic qualities of Neodymium. Depending on the polarity selected, it can either "]
+			id: "4E943AFDD3B533B0"
+			rewards: [
+				{
+					id: "50F86FEAEA357065"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:heavy_slam"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78785DE0B297B6D8"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:arrow_inducting"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "423D6393BF61FDAB"
+				item: {
+					Count: 1
+					id: "alexscaves:resistor_shield"
+					tag: {
+						Damage: 0
+						Polarity: 1b
+						PrevSwitchTime: 5
+						PrevUseTime: 0
+						SwitchTime: 5
+						UseTime: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 28.0d
+		}
 	]
 	title: "First Try"
 }
