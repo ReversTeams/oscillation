@@ -20,10 +20,10 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: false
+				consume_items: true
 				count: 16L
 				id: "0FC0F739BED54DD6"
-				item: { Count: 16, id: "minecraft:dirt" }
+				item: "minecraft:dirt"
 				type: "item"
 			}]
 			title: "Dirt for Steak"
@@ -56,7 +56,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: false
+				consume_items: true
 				id: "62245B93F6315305"
 				item: "botania:divining_rod"
 				type: "item"
@@ -91,7 +91,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: false
+				consume_items: true
 				id: "1C9FCC146D63D596"
 				item: "botania:tangleberrie"
 				type: "item"
@@ -125,7 +125,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: false
+				consume_items: true
 				id: "245C6D3E000D2A8C"
 				item: "botania:temperance_stone"
 				type: "item"
@@ -159,7 +159,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: false
+				consume_items: true
 				id: "0B788D4F8D88F3E2"
 				item: "botania:solegnolia"
 				type: "item"
@@ -186,7 +186,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: false
+				consume_items: true
 				id: "2E322320A473C427"
 				item: "cataclysm:lacrima"
 				type: "item"
@@ -213,7 +213,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: false
+				consume_items: true
 				id: "7D8DA1C376F0E45D"
 				item: "cataclysm:lacrima"
 				type: "item"
@@ -240,7 +240,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: false
+				consume_items: true
 				id: "49E7C09B34A71A50"
 				item: "cataclysm:lacrima"
 				type: "item"
@@ -267,7 +267,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: false
+				consume_items: true
 				id: "658C20F69429C1B6"
 				item: "cataclysm:lacrima"
 				type: "item"
@@ -294,7 +294,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: false
+				consume_items: true
 				id: "6BB3686BB834F185"
 				item: "cataclysm:lacrima"
 				type: "item"
@@ -321,7 +321,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: false
+				consume_items: true
 				id: "70A46ABE3BE1AC45"
 				item: "cataclysm:lacrima"
 				type: "item"
@@ -340,7 +340,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				consume_items: false
+				consume_items: true
 				id: "1C48155ED35F9D8C"
 				item: "cataclysm:lacrima"
 				type: "item"

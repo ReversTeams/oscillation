@@ -263,6 +263,7 @@
 				""
 				"For more comprehensive reference material, try the Lexica Botania!"
 			]
+			hide_until_deps_complete: true
 			id: "4074B393459B537B"
 			rewards: [{
 				count: 4
@@ -294,6 +295,7 @@
 				""
 				"To begin, grow those Menril saplings you got from the Void Blossom."
 			]
+			hide_until_deps_complete: true
 			id: "05BABE49D37904E5"
 			rewards: [{
 				count: 3
@@ -395,6 +397,7 @@
 				"{@pagebreak}"
 				"To get started, craft your first (and for this playtest, only) spellbook, the Flimsy Journal. Then you can inscribe the spells obtained by your quests into your book with the Inscription table. In order to cast spells, hold R to open your spell wheel, release it when it's hovering over your preferred spell, then press V to cast."
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "irons_spellbooks:copper_spell_book"
@@ -602,6 +605,195 @@
 			title: "Making Mana!"
 			x: -4.5d
 			y: 10.0d
+		}
+		{
+			dependencies: ["2911541746862D7A"]
+			description: ["Typically, Menril Berries are rather hard to obtain, only dropping rarely from Menril Leaves, but if you drench Sweet Berries in Menril Resin, you can actually make them artificially! This is useful for certain crafting recipes."]
+			id: "1DE3CA6923D5D280"
+			rewards: [{
+				id: "0B74D10744B0383F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "67AD07FAACDB298D"
+				item: "integrateddynamics:menril_berries"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0E6BB1B94F92D016"
+				"2911541746862D7A"
+			]
+			description: [
+				"Ever feel like your mobility during combat is rather lacking, but don't want to expend your valuable Enderpearls? Well, fret no longer, because in Oscillation, you can quickly automate a self-sufficient pearl farm! "
+				"{@pagebreak}"
+				"The key to this is the Proto Chorus, which can be crafted with 2 Menril Berries and 2 Enderpearls. You can then turn the Proto Chorus into a true Chorus Fruit by putting it through the Petal Apothecary, then turn a profit with the fruit by dunking it into a Mana Pool for 4 pearls!"
+				"{@pagebreak}"
+				"You technically don't need to engage with this automation aspect, but it's &ohighly recommended&r that you do so, as the following bosses can be rather painful without a way to relocate at a moment's notice."
+			]
+			id: "782AA563ECFBB4FB"
+			tasks: [
+				{
+					id: "7F3A89BEA0E4CDCA"
+					item: "integrateddynamics:proto_chorus"
+					type: "item"
+				}
+				{
+					id: "031B7D942BF6A3C4"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0FD43A72681D1646"
+					item: { Count: 16, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+			]
+			title: "Enderpearl Automation?"
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0E6BB1B94F92D016"]
+			description: ["If, for any reason, you feel the need to use Forge Energy, you can actually convert Mana into FE with this handy block!"]
+			id: "04A239EC020B0805"
+			rewards: [{
+				id: "374D2759236D623E"
+				item: {
+					Count: 1
+					id: "integrateddynamics:energy_battery"
+					tag: {
+						energy: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "56CC74BFF2C424DF"
+				item: "botania:mana_fluxfield"
+				type: "item"
+			}]
+			title: "Mana to Power"
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2911541746862D7A"]
+			description: ["If you ever decide that the default Squeezer and Drying Basin aren't cutting it for your infrastructure, you can always upgrade to their mechanical variants! Though, do be warned, these blocks require FE to function."]
+			id: "24C21BE8F532694F"
+			rewards: [{
+				count: 4
+				id: "71691E89677BB40C"
+				item: "integrateddynamics:crystalized_menril_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0952CCF5B7BB7556"
+					item: "integrateddynamics:mechanical_squeezer"
+					type: "item"
+				}
+				{
+					id: "56F6F6BAD8EC7EED"
+					item: "integrateddynamics:mechanical_drying_basin"
+					type: "item"
+				}
+			]
+			title: "Mechanical Apparatuses"
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0E6BB1B94F92D016"]
+			description: ["For the purposes of this test, you can probably get away with just using the Endoflame or Hydroangea for your mana generation, but there are multiple other options available to you for creating mana, which are much more efficient! I won't go over them now though, you can check your Lexica Botania for more information."]
+			icon: "botania:manastar"
+			id: "352B3EC0B6621298"
+			rewards: [{
+				count: 2
+				id: "78F7FD6D166791EA"
+				item: "botania:black_lotus"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7347E5D571E3954F"
+				title: "Other Mana Flora"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0E6BB1B94F92D016"]
+			description: ["For this stage of progression, the Runic Altar represents the end of the required infrastructure, as from here you'll be able to move on to the next boss."]
+			id: "33BEC7C486F00A97"
+			rewards: [{
+				count: 16
+				id: "4866414B516CC481"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D294FFBCFA61228"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["33BEC7C486F00A97"]
+			description: [
+				"In order to proceed, you'll need to trade a Rune of Earth for this compass that can locate Sirok the Sandworm's nest, which is how you'll gain access to the next branch of progression."
+				"(Please only use the compass to track the Sandworm Nest. It's a placeholder.)"
+			]
+			id: "1747E76335E239ED"
+			rewards: [{
+				id: "48BD9BB5F461F18A"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6622989A843FF6A2"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			title: "To Find the Sandworm"
+			x: -2.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1747E76335E239ED"]
+			description: ["Now that you've equipped yourself with better gear, you can now face Sirok, the menace of the desert. Fair warning, fall damage is a real threat in this fight, so be prepared to have a way to mitigate it when it comes up!"]
+			id: "6F9B9F59CF486332"
+			rewards: [{
+				id: "1AE7323FF1078CC3"
+				item: "alexscaves:spelunkery_table"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BF95252621E37A8"
+				item: {
+					Count: 1
+					id: "block_factorys_bosses:sandworm_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Defeat Sirok, the Sandworm"
+			x: -2.5d
+			y: 18.5d
 		}
 	]
 	title: "First Try"
