@@ -62,7 +62,7 @@
 				type: "item"
 			}]
 			title: "Rod for Poison Arrow"
-			x: -0.5d
+			x: 1.0d
 			y: -1.5d
 		}
 		{
@@ -96,8 +96,8 @@
 				item: "botania:tangleberrie"
 				type: "item"
 			}]
-			title: "Tangleberrie for root"
-			x: 0.5d
+			title: "Tangleberrie for Root"
+			x: 2.0d
 			y: -1.5d
 		}
 		{
@@ -131,7 +131,7 @@
 				type: "item"
 			}]
 			title: "Stone for Blight"
-			x: 1.5d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
@@ -164,8 +164,8 @@
 				item: "botania:solegnolia"
 				type: "item"
 			}]
-			title: "Solegnolia for Fireflies"
-			x: 2.5d
+			title: "Solegnolia for Firefly Swarm"
+			x: 4.0d
 			y: -1.5d
 		}
 		{

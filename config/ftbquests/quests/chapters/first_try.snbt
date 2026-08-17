@@ -148,7 +148,7 @@
 			description: [
 				"As this is the proof of concept for the modpack, there is very little implementation when it comes to preventing your progression, even though that's a vital part of the pack's identity."
 				""
-				"So, for the purposes of this test, please don't craft any core modded progression outside of what is allowed in this questline! Of course, you can use modded amenities, but use common sense. Thank you!"
+				"So, for the purposes of this test, please don't craft any core modded progression outside of what is allowed in this questline! Of course, you can use modded amenities, but use discretion. Thank you!"
 			]
 			icon: {
 				Count: 1
@@ -170,6 +170,438 @@
 			}]
 			x: -2.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["43A395FB96AAE476"]
+			description: ["Automatically bound to &lZ&r on the keyboard is your Dodge Roll ability! You innately start with 2 dodge rolls, which have a slight cooldown. While rolling, you are immune to damage, so try to learn how to take advantage of this during combat!"]
+			icon: "block_factorys_bosses:rope_roll"
+			id: "6D5F610C426DA42A"
+			rewards: [{
+				count: 16
+				id: "57A856A2E342F0ED"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76459C4FA7FF1421"
+				title: "I can Dodge Roll!"
+				type: "checkmark"
+			}]
+			title: "You can Dodge Roll!"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["43A395FB96AAE476"]
+			description: ["To help with the flow of combat, you are allowed to eat even while you are at full hunger, enabling easier healing opportunities. Happy feasting!"]
+			icon: "minecraft:cooked_beef"
+			id: "2325002B515A6010"
+			rewards: [{
+				count: 64
+				id: "2C12B851672EC043"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B28960C9E1E9526"
+				title: "I can Eat Forever!"
+				type: "checkmark"
+			}]
+			title: "You can Eat Forever!*"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C54677E1B38562F"]
+			description: [
+				"To kick off your playthrough, you must first hunt down the illustrious Void Blossom. With the Void Lily given to you in the previous quest, you can hunt down its location by following the pollen trail emitted by the flower. You &ocan&r go mine for diamonds and upgrade your gear before taking it on, but the boss is perfectly defeatable at iron level. Just be sure to set your spawn nearby, as it may take a couple attempts."
+				""
+				"{@pagebreak}"
+				"P.S. After the fight, you may notice a strange rift appear. You can take this rift to your current spawn point, so if you set your spawnpoint with a bed, make sure to destroy it to return to world spawn!"
+			]
+			icon: "bosses_of_mass_destruction:crystal_fruit"
+			id: "4CF416E3A1469824"
+			rewards: [
+				{
+					count: 3
+					id: "450C22407F9AF5A2"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "potionsmaster:diamond_sight"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7C4A3236B99B2453"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4448D01F0A3B3945"
+					item: "integrateddynamics:menril_sapling"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2363EE7727786F57"
+				item: "bosses_of_mass_destruction:void_thorn"
+				type: "item"
+			}]
+			title: "Defeat the Void Blossom"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CF416E3A1469824"]
+			description: [
+				"Now that you've vanquished the flower, you can now harness flower magic for your own gain! To begin, create a Petal Apothecary so that you can create some vital pieces of the Botania puzzle."
+				""
+				"For more comprehensive reference material, try the Lexica Botania!"
+			]
+			id: "4074B393459B537B"
+			rewards: [{
+				count: 4
+				id: "3537DD47D440C593"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0E5202AD6A549AC3"
+					item: "botania:apothecary_default"
+					type: "item"
+				}
+				{
+					id: "2D3A12D9EE297E89"
+					item: "botania:lexicon"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Botanic Beginnings"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4CF416E3A1469824"]
+			description: [
+				"In order to assist you with setting up your infrastructure, we've granted access to Integrated Dynamics a little bit earlier than we intend to in the final product. You don't have to use it in all of your automation, but it's required for a vital piece of the puzzle later down the line."
+				""
+				"To begin, grow those Menril saplings you got from the Void Blossom."
+			]
+			id: "05BABE49D37904E5"
+			rewards: [{
+				count: 3
+				id: "505B988C8861F031"
+				item: "integrateddynamics:menril_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63658213F6204AA2"
+				item: "integrateddynamics:menril_log"
+				type: "item"
+			}]
+			title: "Menril Movement"
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["05BABE49D37904E5"]
+			description: [
+				"In order to take full advantage of the incredible properties of Menril, you'll need to properly process it first. By placing a Squeezer's fluid end next to a Drying Basin, you'll be able to create solid blocks of Crystallized Menril, which is vital for creating various pieces of infrastructure."
+				""
+				"{@pagebreak}"
+				"P.S. The Squeezer can be reset by activating it with a redstone signal. If you plop down 2 armor stands on top of it, this action will fling them up into the air, instantly squeezing whatever is in the machine."
+			]
+			id: "2911541746862D7A"
+			rewards: [{
+				count: 2
+				id: "4ACFC27DA0D4B1F8"
+				item: {
+					Count: 1
+					id: "integrateddynamics:energy_battery"
+					tag: {
+						energy: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "50FFB8EC9DF038E1"
+					item: "integrateddynamics:squeezer"
+					type: "item"
+				}
+				{
+					id: "1D11CB94C2B0F773"
+					item: "integrateddynamics:drying_basin"
+					type: "item"
+				}
+			]
+			title: "Squeeze em Dry!"
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4074B393459B537B"]
+			description: ["In order to manipulate botanic mana, you'll need to create materials that are more conductive with the magic substance. In order to create Livingwood and Livingrock, you'll need to surround a Pure Daisy (which can be crafted with a Petal Apothecary) with logs and stone, respectively."]
+			icon: "botania:pure_daisy"
+			id: "499DB42A7E025198"
+			rewards: [
+				{
+					count: 6
+					id: "3D615F499F719C0A"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "4EFB2131E12BAC78"
+					item: "botania:livingrock"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "352DCEA7FCDDF7C2"
+					item: "botania:pure_daisy"
+					type: "item"
+				}
+				{
+					id: "6CECB0A8B39ED15A"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					id: "31F818B6479FF178"
+					item: "botania:livingrock"
+					type: "item"
+				}
+			]
+			title: "Pure Daisies"
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4CF416E3A1469824"]
+			description: [
+				"Iron's Spells n' Spellbooks is a mod that allows players to become combat mages! For the purposes of this modpack, we'll be constraining what spells you'll have access to, so please only use the spells that are tradable in the Timesavers section of the questbook."
+				""
+				"{@pagebreak}"
+				"To get started, craft your first (and for this playtest, only) spellbook, the Flimsy Journal. Then you can inscribe the spells obtained by your quests into your book with the Inscription table. In order to cast spells, hold R to open your spell wheel, release it when it's hovering over your preferred spell, then press V to cast."
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:copper_spell_book"
+				tag: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 5
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "42E1BBDACDAF7B59"
+			rewards: [{
+				count: 16
+				id: "12DBCDC582FE1C9C"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6D4B505323C08096"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:copper_spell_book"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 5
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3862C7EEDDA1D673"
+					item: "irons_spellbooks:inscription_table"
+					type: "item"
+				}
+			]
+			title: "Combat Magic?"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42E1BBDACDAF7B59"]
+			description: [
+				"If you wish to further your arcane prowess, you can craft armor sets that increase your maximum personal mana and even your spell power! However, these require Arcane Cloth to create, which may prove a bit troublesome."
+				""
+				"If you do get your hands on the cloth, I recommend either the Scarecrow or the Wizard set for this playtest."
+			]
+			id: "2F8D29BC6D461358"
+			rewards: [{
+				count: 4
+				id: "5EA424D5DD511444"
+				item: "minecraft:sheep_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34C861E85C93F7F1"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			title: "Mage Armor"
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2911541746862D7A"]
+			description: ["In order to utilize the cables that allow for item/fluid/energy mobility, we must first talk about Variable Cards. They serve a simple purpose: indicating a value that activates importers/exporters for our interfaces. I know that sounds confusing to the layman, but trust me, it's not that bad once you get started. Just make em!"]
+			icon: "integrateddynamics:variable"
+			id: "2CD0505DE2CBD530"
+			rewards: [{
+				id: "4F382D62DA00F642"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "55FA9E68D7B7C3A6"
+					item: "integrateddynamics:variable"
+					type: "item"
+				}
+				{
+					id: "501EA7BD43B70CC0"
+					item: "integrateddynamics:logic_programmer"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Variable Cards"
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2CD0505DE2CBD530"]
+			description: [
+				"In order to best convey what I mean by how simple these tunnels can be, create an Importer and an Interface of the same kind. Place the Importer on the container you wish to take from, the Interface on the container you wish to move to, then connect the two with logic cables."
+				""
+				"{@pagebreak}"
+				"Then, insert the Variable Card in the topmost option when right clicking the Importer, which should be \"Import all X\", which is asking for a Boolean. By adding the Variable Card into that slot, which is set to 'true' by default, the Importer is now moving all objects from the container it's connected to into the system designated by the Interface. Neat, right?"
+			]
+			id: "42C6437D9E707DA8"
+			tasks: [
+				{
+					id: "265F589FC42CA98F"
+					item: "integrateddynamics:cable"
+					type: "item"
+				}
+				{
+					id: "541F55E257894EFB"
+					item: "integratedtunnels:part_importer_fluid"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2A64CC1E3B869D38"
+					item: "integratedtunnels:part_interface_fluid"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3E55B97CF1AC9796"
+					item: "integratedtunnels:part_importer_item"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7F5EAAAD654E0B29"
+					item: "integratedtunnels:part_interface_item"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2B08A8F3595E645D"
+					item: "integratedtunnels:part_importer_energy"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "48DAC5C4C9B01CF6"
+					item: "integratedtunnels:part_interface_energy"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Logical Movement"
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["499DB42A7E025198"]
+			description: [
+				"Once you have all the components required by this quest (and at least 1 of the 2 mana generating flora), you're ready to set up your first mana generating setup!"
+				"First, place the flora, then the spreader on top of the flora, then the mana pool within the spreader's line of sight."
+				""
+				"{@pagebreak}"
+				"Then, right click the Mana Spreader with your Wand of the Forest, and right click the Mana Pool right after. This will point the spreader in the pool's direction. Then, depending on the generating flora you chose, either give it flammable fuel or put water around it. Presto, now you have mana!"
+			]
+			id: "0E6BB1B94F92D016"
+			rewards: [{
+				count: 3
+				id: "63BF0D7714628D80"
+				item: "botania:black_lotus"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "029DD4980C1EFC78"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "6863EA4378956309"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "7C9DF9E7C8E8C4B8"
+					item: {
+						Count: 1
+						id: "botania:twig_wand"
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "246B6B0460C175A5"
+					item: "botania:endoflame"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4CD579BDD2843A5C"
+					item: "botania:hydroangeas"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Making Mana!"
+			x: -4.5d
+			y: 10.0d
 		}
 	]
 	title: "First Try"
