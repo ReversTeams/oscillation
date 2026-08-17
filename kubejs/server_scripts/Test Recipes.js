@@ -16,6 +16,7 @@ ServerEvents.recipes(event => {
 
   // Remove all recipes where output is meteorite comppass:
   event.remove({ output: 'ae2:meteorite_compass' })
+  event.remove({ output: 'cataclysm:storm_eye' })
 
   event.shaped(
   Item.of('alexscaves:cave_tablet', '{CaveBiome:"alexscaves:magnetic_caves"}'), // arg 1: output

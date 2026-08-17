@@ -951,6 +951,14 @@
 		}
 		{
 			dependencies: ["21AC8A54E3CB3AB2"]
+			description: [
+				"The meteorite compass lets you find the meteor which is the first step in progression for applied energistics.  Craft the compass and then follow where it points to find the meteor and dig into it to collect the initial components."
+				""
+				"{@pagebreak}"
+				"If the compass is spinning slowly then there is no meteor in close enough proximity and you need to explore more."
+				""
+				"If it spins rapidly then the meteor is within the same chunk as you.  If you don't see it then you need to dig down."
+			]
 			id: "4A08D8F39A1F138A"
 			tasks: [{
 				id: "3C7706F3300F6E8B"
@@ -958,7 +966,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 31.0d
+			y: 30.5d
 		}
 		{
 			dependencies: ["21AC8A54E3CB3AB2"]
@@ -1058,8 +1066,144 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: -0.5d
 			y: 28.0d
+		}
+		{
+			dependencies: [
+				"4E2350E67BE20FF9"
+				"1F08E93126F37D91"
+				"301AF09AEC14BDFD"
+			]
+			id: "57C92BBF0305CB44"
+			tasks: [{
+				id: "317F02E58EDDE527"
+				item: "cataclysm:storm_eye"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 35.0d
+		}
+		{
+			dependencies: ["4A08D8F39A1F138A"]
+			hide_dependency_lines: true
+			id: "1F08E93126F37D91"
+			tasks: [{
+				count: 2L
+				id: "4CB8EA741B6E2D37"
+				item: { Count: 2, id: "botania:rune_water" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["4A08D8F39A1F138A"]
+			hide_dependency_lines: true
+			id: "4E2350E67BE20FF9"
+			tasks: [{
+				count: 2L
+				id: "4F7B4A11425C2EC4"
+				item: { Count: 2, id: "botania:mana_diamond" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["4A08D8F39A1F138A"]
+			description: [
+				"Mine up some certus quartz from the meteor and craft a charger so you can charge some certus quartz."
+				""
+				"You will also need a crank to power the charger.  attach the crank to the side and place certus quartz inside the charger, then rotate the crank a few times to charge it."
+			]
+			id: "301AF09AEC14BDFD"
+			rewards: [{
+				count: 64
+				id: "7FC86FEE60ABF235"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7805E77DBC60A5A8"
+					item: "ae2:charger"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "20D78A4351EECCD9"
+					item: { Count: 4, id: "ae2:certus_quartz_crystal" }
+					type: "item"
+				}
+				{
+					id: "50D19F6426FA3164"
+					item: "ae2:crank"
+					type: "item"
+				}
+			]
+			title: "Charging Certus Quartz"
+			x: -2.5d
+			y: 32.5d
+		}
+		{
+			dependencies: ["4A08D8F39A1F138A"]
+			description: ["You can grow your own certus quartz by using certus quartz blocks, be careful as every time you mine them they will deteriorate as well as over time naturally.  You can refresh them by dropping them in water alongside some charge certus quartz."]
+			id: "38CFA23E43B5000A"
+			rewards: [{
+				count: 64
+				id: "4179158395711FBC"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1945347F1D7FCC71"
+					item: "ae2:flawed_budding_quartz"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "61748ECB9C106507"
+					item: "ae2:chipped_budding_quartz"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3BBCCCCB97CD6866"
+					item: "ae2:damaged_budding_quartz"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["57C92BBF0305CB44"]
+			description: ["The last thing you need to do, kill Scylla and you'll have completed the Prototype!"]
+			id: "3DCD4DCE905C54C3"
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "29551E8A7C617D97"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill Scylla"
+			x: -2.5d
+			y: 37.0d
+		}
+		{
+			dependencies: ["301AF09AEC14BDFD"]
+			description: ["For information on getting started with ME I recommend making the guide, it has a getting started section with everything you need to know."]
+			id: "3F48F3BBE993F06B"
+			tasks: [{
+				id: "445243CA9E5A2EE5"
+				item: "ae2:guide"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 32.5d
 		}
 	]
 	title: "First Try"
