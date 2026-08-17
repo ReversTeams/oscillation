@@ -1070,45 +1070,25 @@
 			y: 28.0d
 		}
 		{
-			dependencies: [
-				"4E2350E67BE20FF9"
-				"1F08E93126F37D91"
-				"301AF09AEC14BDFD"
+			dependencies: ["301AF09AEC14BDFD"]
+			description: [
+				"Well, here you are! The last step before the end of the playtest. To enter Acropolis, the dimension housing the \"final boss\" of your journey, you must assemble the Eye of Storm."
+				"When you're there, you'll gain access to Lacrima, which can be traded for enchantments in the Timesavers section, but other than that, make sure you have geared up adequately!"
 			]
 			id: "57C92BBF0305CB44"
+			rewards: [{
+				id: "3C312A893A2CFB4A"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
 			tasks: [{
 				id: "317F02E58EDDE527"
 				item: "cataclysm:storm_eye"
 				type: "item"
 			}]
+			title: "Enter: The Eye of the Storm"
 			x: -2.5d
 			y: 35.0d
-		}
-		{
-			dependencies: ["4A08D8F39A1F138A"]
-			hide_dependency_lines: true
-			id: "1F08E93126F37D91"
-			tasks: [{
-				count: 2L
-				id: "4CB8EA741B6E2D37"
-				item: { Count: 2, id: "botania:rune_water" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 34.0d
-		}
-		{
-			dependencies: ["4A08D8F39A1F138A"]
-			hide_dependency_lines: true
-			id: "4E2350E67BE20FF9"
-			tasks: [{
-				count: 2L
-				id: "4F7B4A11425C2EC4"
-				item: { Count: 2, id: "botania:mana_diamond" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 34.0d
 		}
 		{
 			dependencies: ["4A08D8F39A1F138A"]
@@ -1119,7 +1099,7 @@
 			]
 			id: "301AF09AEC14BDFD"
 			rewards: [{
-				count: 64
+				count: 8
 				id: "7FC86FEE60ABF235"
 				item: "ae2:certus_quartz_crystal"
 				type: "item"
@@ -1151,7 +1131,7 @@
 			description: ["You can grow your own certus quartz by using certus quartz blocks, be careful as every time you mine them they will deteriorate as well as over time naturally.  You can refresh them by dropping them in water alongside some charge certus quartz."]
 			id: "38CFA23E43B5000A"
 			rewards: [{
-				count: 64
+				count: 16
 				id: "4179158395711FBC"
 				item: "ae2:certus_quartz_crystal"
 				type: "item"
@@ -1181,15 +1161,35 @@
 		}
 		{
 			dependencies: ["57C92BBF0305CB44"]
-			description: ["The last thing you need to do, kill Scylla and you'll have completed the Prototype!"]
+			description: [
+				"The last thing you need to do; defeat Scylla in combat and you'll have completed the First Try!"
+				"You have everything you'd need in order to win."
+				"Good luck!"
+			]
 			id: "3DCD4DCE905C54C3"
+			rewards: [
+				{
+					id: "2F64F5359E531D14"
+					item: "cataclysm:music_disc_scylla"
+					type: "item"
+				}
+				{
+					id: "4797CE63E2B5E6A2"
+					item: "minecraft:jukebox"
+					type: "item"
+				}
+				{
+					id: "6666BEBA49A72FBC"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
 			tasks: [{
-				entity: "cataclysm:scylla"
-				id: "29551E8A7C617D97"
-				type: "kill"
-				value: 1L
+				id: "151C85E9B29FF9C5"
+				item: "cataclysm:essence_of_the_storm"
+				type: "item"
 			}]
-			title: "Kill Scylla"
+			title: "Defeat Scylla"
 			x: -2.5d
 			y: 37.0d
 		}
@@ -1203,6 +1203,22 @@
 				type: "item"
 			}]
 			x: -5.0d
+			y: 32.5d
+		}
+		{
+			dependencies: ["301AF09AEC14BDFD"]
+			description: [
+				"I mean, it's on the tin. It's a reusable Enderpearl. Do I need to sell this to you?"
+				""
+				"...In case I do, it exists on a separate cooldown from normal Enderpearls."
+			]
+			id: "645A62F7764DD450"
+			tasks: [{
+				id: "65AF7E508915C545"
+				item: "bosses_of_mass_destruction:charged_ender_pearl"
+				type: "item"
+			}]
+			x: 1.0d
 			y: 32.5d
 		}
 	]

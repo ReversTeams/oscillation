@@ -45,6 +45,19 @@ ServerEvents.recipes(event => {
     C: 'alexscaves:azure_neodymium_ingot'
   }
 )
+  event.shaped(
+  Item.of('bosses_of_mass_destruction:charged_ender_pearl'), // arg 1: output
+  [
+    'BBB',
+    'BAB', // arg 2: the shape (array of strings)
+    'BCB'
+  ],
+  {
+    A: 'bosses_of_mass_destruction:void_thorn',
+    B: 'minecraft:ender_pearl',  //arg 3: the mapping object
+    C: 'ae2:charged_certus_quartz_crystal',
+  }
+  )
 
   event.shaped(
   Item.of('cataclysm:storm_eye'), // arg 1: output
