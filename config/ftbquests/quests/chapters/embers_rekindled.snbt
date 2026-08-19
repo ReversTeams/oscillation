@@ -1,0 +1,155 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "embers_rekindled"
+	group: ""
+	icon: "embers:ember_crystal"
+	id: "348A82A32CF51E74"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This hammer lets you make the plates required for other crafting recipes."]
+			id: "28373D6CC6C2D577"
+			tasks: [{
+				id: "160FE2FF1EB6E0DE"
+				item: "embers:tinker_hammer"
+				type: "item"
+			}]
+			title: "Start of Embers"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["28373D6CC6C2D577"]
+			description: ["You need ember to power most things in Ember's Rekindled.  The easiest way is to craft a Ember Bore and place it on bedrock.  Then fuel it with burnables to dig up Ember from the bedrock."]
+			id: "27D2D4BE1981DBD0"
+			rewards: [{
+				count: 64
+				id: "698F711E0B15C9D2"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "28E74DD56BDB0B4F"
+				item: "embers:ember_bore"
+				type: "item"
+			}]
+			title: "Mining Bedrock"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["28373D6CC6C2D577"]
+			description: ["Pipes are useful to transfer items from chest to chest, you can automate the Ember Bore with these.  The Item Extractor needs a redstone signal to function."]
+			id: "7322666DFB5345B3"
+			rewards: [{
+				id: "6D28719DCABDD6B4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "3862A76ADB7D0F97"
+					item: "embers:item_pipe"
+					type: "item"
+				}
+				{
+					id: "1DAD7C07D6B92DE8"
+					item: "embers:item_extractor"
+					type: "item"
+				}
+			]
+			title: "Item Transportation"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["28373D6CC6C2D577"]
+			description: ["Fluid pipes are much more useful later in Ember's Rekindled.  The Fluid Extractor needs a redstone signal to function."]
+			id: "2ABEB32223F9C132"
+			tasks: [
+				{
+					id: "41ABB3E15835087F"
+					item: "embers:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "50E335320B852D5E"
+					item: "embers:fluid_extractor"
+					type: "item"
+				}
+			]
+			title: "Fluid Transportation"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1ED7252BB655DEE4"]
+			description: ["This lets you see useful information about blocks inputs and outputs."]
+			id: "5A10B19705773A71"
+			rewards: [{
+				id: "706F255C50C7FB08"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "541D6FC1D7738280"
+				item: "embers:tinker_lens"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["27D2D4BE1981DBD0"]
+			description: ["Ember needs to be activated and turned into a raw energy form before it becomes useful.  Insert ember into the bottom of the activator using a item pipe or hopper and inserting into the bottom of the activator."]
+			id: "1ED7252BB655DEE4"
+			rewards: [{
+				count: 64
+				id: "16975B346749F252"
+				item: "embers:ember_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "569DAA936D721E0C"
+				item: "embers:ember_activator"
+				type: "item"
+			}]
+			title: "Activating Ember"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1ED7252BB655DEE4"]
+			description: ["You can attach a heat exchanger on the bottom to make ember grit useable and make ember shards more efficient."]
+			id: "3083F681A43D26DA"
+			tasks: [{
+				id: "1303C86CBEB61DE0"
+				item: "embers:heat_exchanger"
+				type: "item"
+			}]
+			title: "More Efficient Ember"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1ED7252BB655DEE4"]
+			description: ["Ember Dials let you see how much Ember is in a machine."]
+			id: "405A37DD68BC0757"
+			rewards: [{
+				id: "4B66BD2C4C92EC48"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "6161981A38C7D868"
+				item: "embers:ember_dial"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+	]
+	title: "Embers Rekindled"
+}
