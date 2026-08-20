@@ -131,7 +131,7 @@
 			}]
 			title: "More Efficient Ember"
 			x: 1.5d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1ED7252BB655DEE4"]
@@ -149,6 +149,316 @@
 			}]
 			x: -1.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["1ED7252BB655DEE4"]
+			description: [
+				"Ember Emitters sends out ember to Ember Recepters and allows you to move ember from location to location."
+				""
+				"{@pagebreak}"
+				"You can link a Ember Emitter with a Ember Recepter by right clicking a Ember Emitter with a Tinker Hammer and then right clicking the Ember Recepter you wish to link it to."
+			]
+			id: "519B036887C4FA7C"
+			rewards: [{
+				id: "63BBCF63FEB92924"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "7D0CDFCDEBE55DF2"
+					item: "embers:ember_emitter"
+					type: "item"
+				}
+				{
+					id: "40D6003ABC947493"
+					item: "embers:ember_receiver"
+					type: "item"
+				}
+			]
+			title: "Ember Transfer"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["519B036887C4FA7C"]
+			description: ["Ember Relays and Mirror Relays can extend the distance at which ember travels."]
+			id: "4ED22A9C325C2559"
+			rewards: [{
+				id: "67FCFEFFE6BF968D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "2803557A6E9E573C"
+					item: "embers:ember_relay"
+					type: "item"
+				}
+				{
+					id: "0E1F4FEF8976F26B"
+					item: "embers:mirror_relay"
+					type: "item"
+				}
+			]
+			title: "Further Ember"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["519B036887C4FA7C"]
+			description: ["Copper Cells can be used to store excess ember."]
+			id: "7A44BF97409A8C27"
+			rewards: [{
+				id: "77D6C786D9A25C62"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5AB6FE098FA527B4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							"embers:ember": 0.0d
+							"embers:ember_capacity": 24000.0d
+						}
+					}
+					id: "embers:copper_cell"
+					tag: {
+						ForgeCaps: {
+							"embers:ember_capacity": 24000.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["519B036887C4FA7C"]
+			description: ["The Hearth Coil acts as a super furnace.  Power it with ember, then drop items on top and it will smelt the items super fast.  Extract your now smelted items by piping them out of the bottom."]
+			id: "6F8959E003213E54"
+			rewards: [{
+				count: 64
+				id: "2F14252485018305"
+				item: "embers:ember_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FD328E12558B0E0"
+				item: "embers:hearth_coil"
+				type: "item"
+			}]
+			title: "Better Smelting"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["519B036887C4FA7C"]
+			description: ["Input ember into the bottom and items into the top.  It will melt the items put into it into a molten form."]
+			id: "54804E4A7023150F"
+			rewards: [{
+				count: 64
+				id: "2359131B2CFB4559"
+				item: "embers:ember_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F7ECB5BE3162347"
+				item: "embers:melter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			description: ["This is the guide to Embers Rekindled if you wish to read it yourself."]
+			id: "513D9A71F25EFE19"
+			rewards: [{
+				id: "4BE6B6F56836985B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "4D58FFE09E8B8A89"
+				item: "embers:ancient_codex"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6F8959E003213E54"]
+			description: ["Reduces the Hearth Coil's ember consumption by 30%"]
+			id: "2AC58AF7F2B54A4C"
+			rewards: [{
+				id: "2C96B7A0ED51D632"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "59A9391D069B5F12"
+				item: "embers:heat_insulation"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6F8959E003213E54"]
+			description: [
+				"The Char Instiller allows the Hearth Coil to smelt only smoker recipes but makes it twice as quick."
+				"The Atmospheric Bellows allows the Hearth Coil to smelt only blasting recipes but makes it twice as quick."
+			]
+			id: "09F2D70C42623E5B"
+			rewards: [{
+				id: "741A58266AE732CE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "62B8CD71AFF882FC"
+					item: "embers:char_instiller"
+					type: "item"
+				}
+				{
+					id: "47B090AA8F78CC64"
+					item: "embers:atmospheric_bellows"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["54804E4A7023150F"]
+			description: ["When attached to a Melter it gives you a by-product of other various ores based on what was put in."]
+			id: "605837C1FBB84EFD"
+			rewards: [{
+				id: "675F6BAF4BF527EA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "6265CBD017EF5743"
+				item: "embers:geologic_separator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["54804E4A7023150F"]
+			description: ["The Stamper, when powered with ember, allows you to turn molten metals into ingots and other various items."]
+			id: "1F03F69C4299F4B2"
+			rewards: [{
+				count: 64
+				id: "62234F7C0191AAD7"
+				item: "embers:ember_crystal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0F15257FB26E7617"
+					item: "embers:stamper"
+					type: "item"
+				}
+				{
+					id: "7367A64178631205"
+					item: "embers:flat_stamp"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0C307B35BD79E5EE"
+					item: "embers:ingot_stamp"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "50D4082E76FF544E"
+					item: "embers:nugget_stamp"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7A5A659055D880C3"
+					item: "embers:plate_stamp"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "56D2D20ED3168CB1"
+					item: "embers:gear_stamp"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1F03F69C4299F4B2"]
+			description: ["When the Mixer Centrifuge is powered with ember and 2 different types of molten metals are piped in, it can alloy the metals together and create new types of metal."]
+			id: "067DE5B152299597"
+			rewards: [{
+				count: 64
+				id: "29D272F3D12AA4F3"
+				item: "embers:ember_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C1A210226EAAA07"
+				item: "embers:mixer_centrifuge"
+				type: "item"
+			}]
+			title: "Alloying"
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["067DE5B152299597"]
+			description: ["Dawnstone is needed to create various important items."]
+			id: "3F21F1A8DC8C61DF"
+			rewards: [{
+				count: 12
+				id: "61C515977F6EA532"
+				item: "embers:dawnstone_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "793436F80A17A39C"
+				item: "embers:dawnstone_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3F21F1A8DC8C61DF"]
+			description: [
+				"The Pressure Refinery produces ember at a more efficient rate, although you will need to pipe in water as an additional requirement."
+				""
+				"You can increase it's efficiency even further by putting it on a metal block and surrounding it by lava."
+			]
+			id: "776DD35985FE949C"
+			rewards: [{
+				count: 64
+				id: "16A2B4684EBD08FF"
+				item: "embers:ember_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6359DC6A9F61B0A7"
+				item: "embers:pressure_refinery"
+				type: "item"
+			}]
+			title: "More efficient Refining"
+			x: 2.0d
+			y: 12.5d
 		}
 	]
 	title: "Embers Rekindled"
