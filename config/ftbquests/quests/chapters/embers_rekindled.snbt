@@ -457,8 +457,353 @@
 				type: "item"
 			}]
 			title: "More efficient Refining"
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3F21F1A8DC8C61DF"]
+			description: ["The Crystal Cell can store a much larger quantity of ember.  You can also put in ember items to increase the storage."]
+			id: "179AFB610C62FB04"
+			rewards: [{
+				id: "6FAE95FB8775D857"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "26B1EEA06D979152"
+				item: "embers:crystal_cell"
+				type: "item"
+			}]
+			title: "Bigger Ember Storage"
 			x: 2.0d
-			y: 12.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3F21F1A8DC8C61DF"]
+			description: ["You can use Ember Emitters and Ember Funnels to transfer your ember quicker."]
+			id: "49B687F868D7F9A7"
+			rewards: [{
+				id: "7DB3415AE62064BE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "5126FF8CBBAD540F"
+					item: "embers:ember_funnel"
+					type: "item"
+				}
+				{
+					id: "6CAC635E0830BC35"
+					item: "embers:ember_ejector"
+					type: "item"
+				}
+			]
+			title: "Higher Ember Throughput"
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3F21F1A8DC8C61DF"]
+			description: ["You can use this to split the ember beams in multiple directions."]
+			id: "6148ED6950BD83D6"
+			rewards: [{
+				id: "4E043F61E20B0A53"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5398566518DCE574"
+				item: "embers:beam_splitter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3F21F1A8DC8C61DF"]
+			description: ["The charger can be used to charge small containers to power useful items later."]
+			id: "545E72F0AE82CAC8"
+			rewards: [{
+				id: "37B7660A927B2965"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "62F36FC0B2ACC947"
+				item: "embers:copper_charger"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["545E72F0AE82CAC8"]
+			description: [
+				"Mantle Catridges need to be held in your off-hand and hold more ember."
+				""
+				"Mantle Jars can be anywhere in your inventory but hold less ember."
+			]
+			id: "3622A7293D3E7EF4"
+			rewards: [{
+				id: "4FB22763A5C4F331"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "7F6C42F3C8B2C252"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								"embers:ember": 0.0d
+								"embers:ember_capacity": 2000.0d
+							}
+						}
+						id: "embers:ember_jar"
+						tag: {
+							ForgeCaps: {
+								"embers:ember_capacity": 2000.0d
+							}
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "78F35ABF06E6A7AC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								"embers:ember": 0.0d
+								"embers:ember_capacity": 6000.0d
+							}
+						}
+						id: "embers:ember_cartridge"
+						tag: {
+							ForgeCaps: {
+								"embers:ember_capacity": 6000.0d
+							}
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Portable Ember"
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3622A7293D3E7EF4"]
+			description: [
+				"These are very powerful tools that need to be powered by ember to be used."
+				""
+				"{@pagebreak}"
+				"The Clockwork Pickaxe act as a pickaxe and a shovel while powered by ember."
+				""
+				"{@pagebreak}"
+				"The Grandhammer deals high damage and can break blocks.  WARNING: When the Grandhammer breaks blocks they do NOT drop."
+				""
+				"{@pagebreak}"
+				"The Clockwork Axe functions as a powerful axe as long as it's powered by ember."
+			]
+			id: "7EFC22CC29197645"
+			rewards: [
+				{
+					id: "504DC0F744CEEBF3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								"embers:ember": 0.0d
+								"embers:ember_capacity": 2000.0d
+							}
+						}
+						id: "embers:ember_jar"
+						tag: {
+							ForgeCaps: {
+								"embers:ember_capacity": 2000.0d
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67B039F95B4DCE65"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								"embers:ember": 0.0d
+								"embers:ember_capacity": 6000.0d
+							}
+						}
+						id: "embers:ember_cartridge"
+						tag: {
+							ForgeCaps: {
+								"embers:ember_capacity": 6000.0d
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2B766253B495201A"
+					item: "embers:clockwork_axe"
+					type: "item"
+				}
+				{
+					id: "0FF888BEF519A450"
+					item: "embers:clockwork_pickaxe"
+					type: "item"
+				}
+				{
+					id: "5D9BCD90882CE8D9"
+					item: "embers:grandhammer"
+					type: "item"
+				}
+			]
+			title: "Ember Powered Tools"
+			x: -4.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3622A7293D3E7EF4"]
+			description: [
+				"The Cinder Staff uses ember to attack monsters at a range, the more you charge it the more damage it does."
+				""
+				"{@pagebreak}"
+				"The Blazing Ray acts as a long range firearm consuming ember to shoot."
+			]
+			id: "2F7479FA505FA8B4"
+			rewards: [
+				{
+					id: "08385F0827475BFD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								"embers:ember": 0.0d
+								"embers:ember_capacity": 2000.0d
+							}
+						}
+						id: "embers:ember_jar"
+						tag: {
+							ForgeCaps: {
+								"embers:ember_capacity": 2000.0d
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48CA0676E9B655A0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								"embers:ember": 0.0d
+								"embers:ember_capacity": 6000.0d
+							}
+						}
+						id: "embers:ember_cartridge"
+						tag: {
+							ForgeCaps: {
+								"embers:ember_capacity": 6000.0d
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "09A0190E6216877B"
+					item: "embers:cinder_staff"
+					type: "item"
+				}
+				{
+					id: "68C65BF7A90C05CE"
+					item: "embers:blazing_ray"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3F21F1A8DC8C61DF"]
+			description: ["You will need a few of each of these to perform ember alchemy.  They are not consumed when used."]
+			id: "4E7156211A884751"
+			rewards: [{
+				id: "3D666EB8ADA08025"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "32EA7FEB7E0205B8"
+					item: "embers:iron_aspectus"
+					type: "item"
+				}
+				{
+					id: "638D5EA48E82BDE1"
+					item: "embers:copper_aspectus"
+					type: "item"
+				}
+				{
+					id: "700B8E1E91A1C4D6"
+					item: "embers:lead_aspectus"
+					type: "item"
+				}
+				{
+					id: "53B14AC12024F4CA"
+					item: "embers:silver_aspectus"
+					type: "item"
+				}
+				{
+					id: "3D5B0546182049D1"
+					item: "embers:dawnstone_aspectus"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3F21F1A8DC8C61DF"]
+			description: ["Put a exchange tablet with a Beam Cannon above it.  Then surroung it with 3-4 alchemy pedestals."]
+			id: "2A57ABDBB7467460"
+			rewards: [{
+				id: "7A412F4FAAC22DF3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "5943BE780FF2B1D7"
+					item: "embers:alchemy_tablet"
+					type: "item"
+				}
+				{
+					id: "319AAE79BC04FCC0"
+					item: "embers:alchemy_pedestal"
+					type: "item"
+				}
+				{
+					id: "06139B0AB9926B25"
+					item: "embers:beam_cannon"
+					type: "item"
+				}
+			]
+			title: "Ember Alchemy"
+			x: 1.0d
+			y: 13.0d
 		}
 	]
 	title: "Embers Rekindled"
