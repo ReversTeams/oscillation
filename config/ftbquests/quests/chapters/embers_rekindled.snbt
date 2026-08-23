@@ -131,7 +131,7 @@
 			}]
 			title: "More Efficient Ember"
 			x: 1.5d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1ED7252BB655DEE4"]
@@ -149,6 +149,1122 @@
 			}]
 			x: -1.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["1ED7252BB655DEE4"]
+			description: [
+				"Ember Emitters sends out ember to Ember Recepters and allows you to move ember from location to location."
+				""
+				"{@pagebreak}"
+				"You can link a Ember Emitter with a Ember Recepter by right clicking a Ember Emitter with a Tinker Hammer and then right clicking the Ember Recepter you wish to link it to."
+			]
+			id: "519B036887C4FA7C"
+			rewards: [{
+				id: "63BBCF63FEB92924"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "7D0CDFCDEBE55DF2"
+					item: "embers:ember_emitter"
+					type: "item"
+				}
+				{
+					id: "40D6003ABC947493"
+					item: "embers:ember_receiver"
+					type: "item"
+				}
+			]
+			title: "Ember Transfer"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["519B036887C4FA7C"]
+			description: ["Ember Relays and Mirror Relays can extend the distance at which ember travels."]
+			id: "4ED22A9C325C2559"
+			rewards: [{
+				id: "67FCFEFFE6BF968D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "2803557A6E9E573C"
+					item: "embers:ember_relay"
+					type: "item"
+				}
+				{
+					id: "0E1F4FEF8976F26B"
+					item: "embers:mirror_relay"
+					type: "item"
+				}
+			]
+			title: "Further Ember"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["519B036887C4FA7C"]
+			description: ["Copper Cells can be used to store excess ember."]
+			id: "7A44BF97409A8C27"
+			rewards: [{
+				id: "77D6C786D9A25C62"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5AB6FE098FA527B4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							"embers:ember": 0.0d
+							"embers:ember_capacity": 24000.0d
+						}
+					}
+					id: "embers:copper_cell"
+					tag: {
+						ForgeCaps: {
+							"embers:ember_capacity": 24000.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["519B036887C4FA7C"]
+			description: ["The Hearth Coil acts as a super furnace.  Power it with ember, then drop items on top and it will smelt the items super fast.  Extract your now smelted items by piping them out of the bottom."]
+			id: "6F8959E003213E54"
+			rewards: [{
+				count: 64
+				id: "2F14252485018305"
+				item: "embers:ember_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FD328E12558B0E0"
+				item: "embers:hearth_coil"
+				type: "item"
+			}]
+			title: "Better Smelting"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["519B036887C4FA7C"]
+			description: ["Input ember into the bottom and items into the top.  It will melt the items put into it into a molten form."]
+			id: "54804E4A7023150F"
+			rewards: [{
+				count: 64
+				id: "2359131B2CFB4559"
+				item: "embers:ember_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F7ECB5BE3162347"
+				item: "embers:melter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			description: ["This is the guide to Embers Rekindled if you wish to read it yourself."]
+			id: "513D9A71F25EFE19"
+			rewards: [{
+				id: "4BE6B6F56836985B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "4D58FFE09E8B8A89"
+				item: "embers:ancient_codex"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6F8959E003213E54"]
+			description: ["Reduces the Hearth Coil's ember consumption by 30%"]
+			id: "2AC58AF7F2B54A4C"
+			rewards: [{
+				id: "2C96B7A0ED51D632"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "59A9391D069B5F12"
+				item: "embers:heat_insulation"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6F8959E003213E54"]
+			description: [
+				"The Char Instiller allows the Hearth Coil to smelt only smoker recipes but makes it twice as quick."
+				"The Atmospheric Bellows allows the Hearth Coil to smelt only blasting recipes but makes it twice as quick."
+			]
+			id: "09F2D70C42623E5B"
+			rewards: [{
+				id: "741A58266AE732CE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "62B8CD71AFF882FC"
+					item: "embers:char_instiller"
+					type: "item"
+				}
+				{
+					id: "47B090AA8F78CC64"
+					item: "embers:atmospheric_bellows"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["54804E4A7023150F"]
+			description: ["When attached to a Melter it gives you a by-product of other various ores based on what was put in."]
+			id: "605837C1FBB84EFD"
+			rewards: [{
+				id: "675F6BAF4BF527EA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "6265CBD017EF5743"
+				item: "embers:geologic_separator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["54804E4A7023150F"]
+			description: ["The Stamper, when powered with ember, allows you to turn molten metals into ingots and other various items."]
+			id: "1F03F69C4299F4B2"
+			rewards: [{
+				count: 64
+				id: "62234F7C0191AAD7"
+				item: "embers:ember_crystal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0F15257FB26E7617"
+					item: "embers:stamper"
+					type: "item"
+				}
+				{
+					id: "7367A64178631205"
+					item: "embers:flat_stamp"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0C307B35BD79E5EE"
+					item: "embers:ingot_stamp"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "50D4082E76FF544E"
+					item: "embers:nugget_stamp"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7A5A659055D880C3"
+					item: "embers:plate_stamp"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "56D2D20ED3168CB1"
+					item: "embers:gear_stamp"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1F03F69C4299F4B2"]
+			description: ["When the Mixer Centrifuge is powered with ember and 2 different types of molten metals are piped in, it can alloy the metals together and create new types of metal."]
+			id: "067DE5B152299597"
+			rewards: [{
+				count: 64
+				id: "29D272F3D12AA4F3"
+				item: "embers:ember_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C1A210226EAAA07"
+				item: "embers:mixer_centrifuge"
+				type: "item"
+			}]
+			title: "Alloying"
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["067DE5B152299597"]
+			description: ["Dawnstone is needed to create various important items."]
+			id: "3F21F1A8DC8C61DF"
+			rewards: [{
+				count: 12
+				id: "61C515977F6EA532"
+				item: "embers:dawnstone_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "793436F80A17A39C"
+				item: "embers:dawnstone_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3F21F1A8DC8C61DF"]
+			description: [
+				"The Pressure Refinery produces ember at a more efficient rate, although you will need to pipe in water as an additional requirement."
+				""
+				"You can increase it's efficiency even further by putting it on a metal block and surrounding it by lava."
+			]
+			id: "776DD35985FE949C"
+			rewards: [{
+				count: 64
+				id: "16A2B4684EBD08FF"
+				item: "embers:ember_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6359DC6A9F61B0A7"
+				item: "embers:pressure_refinery"
+				type: "item"
+			}]
+			title: "More efficient Refining"
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3F21F1A8DC8C61DF"]
+			description: ["The Crystal Cell can store a much larger quantity of ember.  You can also put in ember items to increase the storage."]
+			id: "179AFB610C62FB04"
+			rewards: [{
+				id: "6FAE95FB8775D857"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "26B1EEA06D979152"
+				item: "embers:crystal_cell"
+				type: "item"
+			}]
+			title: "Bigger Ember Storage"
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3F21F1A8DC8C61DF"]
+			description: ["You can use Ember Emitters and Ember Funnels to transfer your ember quicker."]
+			id: "49B687F868D7F9A7"
+			rewards: [{
+				id: "7DB3415AE62064BE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "5126FF8CBBAD540F"
+					item: "embers:ember_funnel"
+					type: "item"
+				}
+				{
+					id: "6CAC635E0830BC35"
+					item: "embers:ember_ejector"
+					type: "item"
+				}
+			]
+			title: "Higher Ember Throughput"
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3F21F1A8DC8C61DF"]
+			description: ["You can use this to split the ember beams in multiple directions."]
+			id: "6148ED6950BD83D6"
+			rewards: [{
+				id: "4E043F61E20B0A53"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5398566518DCE574"
+				item: "embers:beam_splitter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3F21F1A8DC8C61DF"]
+			description: ["The charger can be used to charge small containers to power useful items later."]
+			id: "545E72F0AE82CAC8"
+			rewards: [{
+				id: "37B7660A927B2965"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "62F36FC0B2ACC947"
+				item: "embers:copper_charger"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["545E72F0AE82CAC8"]
+			description: [
+				"Mantle Catridges need to be held in your off-hand and hold more ember."
+				""
+				"Mantle Jars can be anywhere in your inventory but hold less ember."
+			]
+			id: "3622A7293D3E7EF4"
+			rewards: [{
+				id: "4FB22763A5C4F331"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "7F6C42F3C8B2C252"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								"embers:ember": 0.0d
+								"embers:ember_capacity": 2000.0d
+							}
+						}
+						id: "embers:ember_jar"
+						tag: {
+							ForgeCaps: {
+								"embers:ember_capacity": 2000.0d
+							}
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "78F35ABF06E6A7AC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								"embers:ember": 0.0d
+								"embers:ember_capacity": 6000.0d
+							}
+						}
+						id: "embers:ember_cartridge"
+						tag: {
+							ForgeCaps: {
+								"embers:ember_capacity": 6000.0d
+							}
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Portable Ember"
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3622A7293D3E7EF4"]
+			description: [
+				"These are very powerful tools that need to be powered by ember to be used."
+				""
+				"{@pagebreak}"
+				"The Clockwork Pickaxe act as a pickaxe and a shovel while powered by ember."
+				""
+				"{@pagebreak}"
+				"The Grandhammer deals high damage and can break blocks.  WARNING: When the Grandhammer breaks blocks they do NOT drop."
+				""
+				"{@pagebreak}"
+				"The Clockwork Axe functions as a powerful axe as long as it's powered by ember."
+			]
+			id: "7EFC22CC29197645"
+			rewards: [
+				{
+					id: "504DC0F744CEEBF3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								"embers:ember": 0.0d
+								"embers:ember_capacity": 2000.0d
+							}
+						}
+						id: "embers:ember_jar"
+						tag: {
+							ForgeCaps: {
+								"embers:ember_capacity": 2000.0d
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67B039F95B4DCE65"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								"embers:ember": 0.0d
+								"embers:ember_capacity": 6000.0d
+							}
+						}
+						id: "embers:ember_cartridge"
+						tag: {
+							ForgeCaps: {
+								"embers:ember_capacity": 6000.0d
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2B766253B495201A"
+					item: "embers:clockwork_axe"
+					type: "item"
+				}
+				{
+					id: "0FF888BEF519A450"
+					item: "embers:clockwork_pickaxe"
+					type: "item"
+				}
+				{
+					id: "5D9BCD90882CE8D9"
+					item: "embers:grandhammer"
+					type: "item"
+				}
+			]
+			title: "Ember Powered Tools"
+			x: -4.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3622A7293D3E7EF4"]
+			description: [
+				"The Cinder Staff uses ember to attack monsters at a range, the more you charge it the more damage it does."
+				""
+				"{@pagebreak}"
+				"The Blazing Ray acts as a long range firearm consuming ember to shoot."
+			]
+			id: "2F7479FA505FA8B4"
+			rewards: [
+				{
+					id: "08385F0827475BFD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								"embers:ember": 0.0d
+								"embers:ember_capacity": 2000.0d
+							}
+						}
+						id: "embers:ember_jar"
+						tag: {
+							ForgeCaps: {
+								"embers:ember_capacity": 2000.0d
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48CA0676E9B655A0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								"embers:ember": 0.0d
+								"embers:ember_capacity": 6000.0d
+							}
+						}
+						id: "embers:ember_cartridge"
+						tag: {
+							ForgeCaps: {
+								"embers:ember_capacity": 6000.0d
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "09A0190E6216877B"
+					item: "embers:cinder_staff"
+					type: "item"
+				}
+				{
+					id: "68C65BF7A90C05CE"
+					item: "embers:blazing_ray"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3F21F1A8DC8C61DF"]
+			description: [
+				"Put a exchange tablet with a Beam Cannon above it.  Then surroung it with 4 alchemy pedestals."
+				""
+				"{@pagebreak}"
+				"Put one Aspectus on each alchemy pedestal to see which ones work on which ones don't."
+				""
+				"After you try the recipe and if it fails you will be provided with an Alchemic Waste, right click it to gain some information.  The amount of pale dots means a right Aspectus but paired with the wrong ingrediant.  The amount of glowing dots means the right Aspectus paired with the right ingrediant."
+			]
+			id: "2A57ABDBB7467460"
+			rewards: [{
+				id: "7A412F4FAAC22DF3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "5943BE780FF2B1D7"
+					item: "embers:alchemy_tablet"
+					type: "item"
+				}
+				{
+					id: "319AAE79BC04FCC0"
+					item: "embers:alchemy_pedestal"
+					type: "item"
+				}
+				{
+					id: "06139B0AB9926B25"
+					item: "embers:beam_cannon"
+					type: "item"
+				}
+				{
+					id: "5DB23199EDFFACF9"
+					item: "embers:iron_aspectus"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "52AC6AD83CB267C8"
+					item: "embers:copper_aspectus"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6FFABADD0AC65D4C"
+					item: "embers:lead_aspectus"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7AA045F85191D230"
+					item: "embers:silver_aspectus"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "36D911CB1990369B"
+					item: "embers:dawnstone_aspectus"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Ember Alchemy"
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2A57ABDBB7467460"]
+			description: ["One of the first items you'll want to craft is a Codebreaking Slate.  It allows you to store multiple Alchemical Waste in it and cross-reference them all at the same time."]
+			id: "7258B07D9FE05210"
+			rewards: [{
+				id: "71A20A3D86877633"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "7A7B5C9ED3F05806"
+				item: "embers:codebreaking_slate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7258B07D9FE05210"]
+			description: ["The Mnemonic Inscriber is attached to the Alchemy Tablet.  When paper is placed inside and an item is successfully made it will inscribe on the paper the correct recipe."]
+			id: "396991035E3FA870"
+			rewards: [{
+				count: 16
+				id: "799D11590458F971"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BE7FD22CB1ACCEC"
+				item: "embers:mnemonic_inscriber"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7258B07D9FE05210"]
+			description: [
+				"The Glimmer Crystal allows you to place temporary lights and it automatically recharges in daylight."
+				""
+				"The Glimmer Lamp allows you to do so at a further range but has less storage and recharges slower in daylight."
+			]
+			id: "104E1BCFD9C753A5"
+			rewards: [{
+				id: "22EC0D7F97059A2B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "652EB3034ABB2578"
+					item: {
+						Count: 1
+						id: "embers:glimmer_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4258D463BAF17A64"
+					item: {
+						Count: 1
+						id: "embers:glimmer_lamp"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7258B07D9FE05210"]
+			description: ["A sword that deals less damage than a normal lead sword but deals increased damage to armored foes."]
+			id: "2977E9D9C9AFC6EE"
+			rewards: [{
+				id: "47BC20C82C7A0888"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "697BDE06DFBE54AD"
+				item: {
+					Count: 1
+					id: "embers:tyrfing"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7258B07D9FE05210"]
+			description: ["A set of armor slightly worse than diamond and can be upgraded later."]
+			id: "054741C0A9F0454D"
+			rewards: [{
+				id: "64CD9979F77FA5C0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "6237716E83947745"
+					item: {
+						Count: 1
+						id: "embers:ashen_goggles"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25EECB165D6AD137"
+					item: {
+						Count: 1
+						id: "embers:ashen_cloak"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AF31121305A5F08"
+					item: {
+						Count: 1
+						id: "embers:ashen_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B81373C12E42659"
+					item: {
+						Count: 1
+						id: "embers:ashen_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ashen Armor"
+			x: 0.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["054741C0A9F0454D"]
+			description: [
+				"Inflictor Gems can be used to upgrade your armor.  While holding one, when you take damage, they attune to that damage type and reduce it by about one-third while equipped to your armor."
+				""
+				"{@pagebreak}"
+				"They can be added to the armor by putting it in a crafting table with one and removed by putting a armor by itself in a crafting table."
+			]
+			id: "3EA2CF5C7EE206E9"
+			rewards: [{
+				id: "0606F9E63062FF4B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "6D8BE7E8776A246B"
+				item: {
+					Count: 1
+					id: "embers:inflictor_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7258B07D9FE05210"]
+			description: ["By alchemically fusing ember together they become much more potent and efficient."]
+			id: "3576E647810ED324"
+			rewards: [{
+				count: 4
+				id: "0A728000D5B339D1"
+				item: "embers:ember_crystal_cluster"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CCDBC345AED426D"
+				item: "embers:ember_crystal_cluster"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["27D2D4BE1981DBD0"]
+			description: ["Use this to find the most efficient spot to place the Ember Bore."]
+			id: "18180A068A7FFCD3"
+			rewards: [{
+				id: "49B09A934A77638F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "168B92401A71F3BC"
+				item: "embers:atmospheric_gauge"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3576E647810ED324"]
+			description: ["These reduce the amount of ember your tools use."]
+			id: "5643C1EBA261754E"
+			rewards: [{
+				id: "20C439080321AFE7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "1891E90A1817AA29"
+					item: "embers:ember_ring"
+					type: "item"
+				}
+				{
+					id: "74803D959AA66BBD"
+					item: "embers:ember_belt"
+					type: "item"
+				}
+				{
+					id: "270DDCD238762097"
+					item: "embers:ember_amulet"
+					type: "item"
+				}
+			]
+			title: "Ember Cost Reduction"
+			x: 0.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3576E647810ED324"]
+			description: ["This amulet nullifies 90% of magical damage."]
+			id: "56347EC2712B69C1"
+			rewards: [{
+				id: "290A6B5A73372BFD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "2DD9D08480C1B718"
+				item: "embers:nonbeliever_amulet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3576E647810ED324"]
+			description: ["When you kill a mob while wearing this amulet they will only drop ash."]
+			id: "1BF7B7D9D744EA0A"
+			rewards: [{
+				id: "5720A8B8D7E0CE7D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "67F1D7AC2B812566"
+				item: "embers:ashen_amulet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3576E647810ED324"]
+			description: ["While wearing this you will receive no knockback."]
+			id: "2CE944E854C8C72A"
+			rewards: [{
+				id: "5C692F9A5616C17F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "72A152BD553FF230"
+				item: "embers:dawnstone_mail"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["3576E647810ED324"]
+			description: ["This amulet absorbs explosion damage, you may add it to alchemy pedestals to protect them from explosions."]
+			id: "0E9B1CB9C2FB4D68"
+			rewards: [{
+				id: "2A32613E7BFF98DC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "6748D83CA4221717"
+					item: "embers:explosion_charm"
+					type: "item"
+				}
+				{
+					id: "47CF32AEA92AE549"
+					item: "embers:explosion_pedestal"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["7258B07D9FE05210"]
+			description: ["You can put an item on a dawnstone anvil with isolated materia and an automatic hammer above it to instantly repair anything.  The hammer must be powered with ember."]
+			id: "2747E307CC16DDF5"
+			rewards: [{
+				count: 12
+				id: "3C678800F301B233"
+				item: "embers:isolated_materia"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "748583F588D16D92"
+					item: "embers:isolated_materia"
+					type: "item"
+				}
+				{
+					id: "37093CACE2727EE2"
+					item: "embers:dawnstone_anvil"
+					type: "item"
+				}
+				{
+					id: "7AE570BDE3F002F9"
+					item: "embers:automatic_hammer"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7258B07D9FE05210"]
+			description: ["This acts as an alternative to balls of slime."]
+			id: "5CE5348DF841E58E"
+			rewards: [{
+				count: 64
+				id: "6B8E2078DF61F29E"
+				item: "embers:adhesive"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E0ABA35F54DEEDE"
+				item: "embers:adhesive"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3576E647810ED324"]
+			description: ["Used for later crafting."]
+			id: "7DE1D63A1EBE1ECD"
+			rewards: [{
+				count: 5
+				id: "7C796FC8F5FA32B3"
+				item: "embers:wildfire_core"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EF58ACBACD7B4CB"
+				item: "embers:wildfire_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["7DE1D63A1EBE1ECD"]
+			description: ["The Ember Injector allows you to put metal seeds in them and when powered by ember they will grow the associated metal."]
+			id: "26DAA289869E3EC6"
+			rewards: [{
+				id: "350FABB63C41E33F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "3DA43D1967E00022"
+				item: "embers:ember_injector"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["7DE1D63A1EBE1ECD"]
+			description: ["When a Ignem Reactor is placed between both top parts of a Combustion  Chamber and a Catalysis Chamber, and they are both fueled, it will refine ember."]
+			id: "3315F585C88C4BC7"
+			rewards: [
+				{
+					count: 64
+					id: "6B19B86C406E7A05"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "24C163EF32A306C4"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "135DCF0103F23F98"
+					item: "embers:ignem_reactor"
+					type: "item"
+				}
+				{
+					id: "136F34A5EF31497A"
+					item: "embers:combustion_chamber"
+					type: "item"
+				}
+				{
+					id: "2D723F857B632051"
+					item: "embers:catalysis_chamber"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["7DE1D63A1EBE1ECD"]
+			description: ["This machine will reduce the consumption of ember that machines use when it is attached to them."]
+			id: "5BB1A03DDE6A3E31"
+			rewards: [{
+				id: "0D1335F537A18082"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "49F032BBA754AFC5"
+				item: "embers:wildfire_stirling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 22.0d
 		}
 	]
 	title: "Embers Rekindled"
