@@ -1129,21 +1129,15 @@
 			y: 19.0d
 		}
 		{
-			dependencies: ["7258B07D9FE05210"]
-			description: ["You can put an item on a dawnstone anvil with isolated materia and an automatic hammer above it to instantly repair anything.  The hammer must be powered with ember."]
+			dependencies: ["7DE1D63A1EBE1ECD"]
+			description: ["Put a Dawnstone Anvil somewhere and an Automatic Hammer above it.  Power the Automatic Hammer with ember."]
 			id: "2747E307CC16DDF5"
 			rewards: [{
-				count: 12
-				id: "3C678800F301B233"
-				item: "embers:isolated_materia"
-				type: "item"
+				id: "4D6A986394D5EA3B"
+				type: "xp_levels"
+				xp_levels: 1
 			}]
 			tasks: [
-				{
-					id: "748583F588D16D92"
-					item: "embers:isolated_materia"
-					type: "item"
-				}
 				{
 					id: "37093CACE2727EE2"
 					item: "embers:dawnstone_anvil"
@@ -1155,8 +1149,9 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 15.0d
+			title: "Dawnstone Anvil"
+			x: 2.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["7258B07D9FE05210"]
@@ -1265,6 +1260,135 @@
 			}]
 			x: 0.5d
 			y: 22.0d
+		}
+		{
+			dependencies: ["2747E307CC16DDF5"]
+			description: ["You can put Isolated Materia, in a dawnstone anvil, on top of any item to fully repair it."]
+			id: "45B7E6098B545E00"
+			rewards: [{
+				count: 12
+				id: "5FCD99E2C01CB5BA"
+				item: "embers:isolated_materia"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29825B0C892E33A3"
+				item: "embers:isolated_materia"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["2747E307CC16DDF5"]
+			description: ["You can place a item on the Dawnstone Anvil and an Ancient Motive Core on top of it to make it able to absorb heat."]
+			id: "6354AD587755E0B1"
+			rewards: [{
+				id: "25066EC1BFC8805B"
+				item: "embers:ancient_motive_core"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BCBAD9B361E6C4D"
+				item: "embers:ancient_motive_core"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["6354AD587755E0B1"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Once you fill up the heat gauge you can power an Inferno Forge with ember and put the heat filled item inside of it to give the item an Augment slot."
+				""
+				"{@pagebreak}"
+				"To insert augments into an item, place the item on an anvil and the augment on top of it.  You can then remove the augment by placing just the item on the anvil."
+				""
+				"{@pagebreak}"
+				"The most notable augments are mentioned here.  The rest can be found in the last chapter of the Ancient Codex."
+			]
+			id: "5B0D239749C046E6"
+			rewards: [{
+				id: "21DD8383A9AB51F9"
+				item: "embers:ancient_motive_core"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EACFD2FA4F341ED"
+				item: "embers:inferno_forge"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["5B0D239749C046E6"]
+			description: ["By augmenting this into your armor some mobs will not attack you."]
+			id: "694B4CBC15EE3082"
+			rewards: [{
+				id: "1A68999E0D4277C7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "21ED6FA3BFAF623B"
+				item: "embers:eldritch_insignia"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["5B0D239749C046E6"]
+			description: ["This augment allows you to have anything shoot projectiles when you use it."]
+			id: "5EFAFD08D47F3A5C"
+			rewards: [{
+				id: "70C8C0B244D5F311"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "236B31F477331FE2"
+				item: "embers:caster_orb"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["5B0D239749C046E6"]
+			description: ["The Diffraction Barrel can turn any ember based ranged weapon into a shotgun."]
+			id: "685D77607381560D"
+			rewards: [{
+				id: "2C1FA4BD2DBAB307"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "6EACCDBFBEE47D60"
+				item: "embers:diffraction_barrel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 29.5d
+		}
+		{
+			dependencies: ["5B0D239749C046E6"]
+			description: ["This will either may a ray piercing or a projectile homing for ember based weapons."]
+			id: "2BA2124896BC6834"
+			rewards: [{
+				id: "1D3EB06012013FBB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "67D5F3FE6322F385"
+				item: "embers:focal_lens"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 29.5d
 		}
 	]
 	title: "Embers Rekindled"
