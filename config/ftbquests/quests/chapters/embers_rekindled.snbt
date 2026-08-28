@@ -5,11 +5,12 @@
 	group: ""
 	icon: "embers:ember_crystal"
 	id: "348A82A32CF51E74"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["This hammer lets you make the plates required for other crafting recipes."]
+			entity_vis_size: 1.0f
 			id: "28373D6CC6C2D577"
 			tasks: [{
 				id: "160FE2FF1EB6E0DE"
@@ -23,6 +24,7 @@
 		{
 			dependencies: ["28373D6CC6C2D577"]
 			description: ["You need ember to power most things in Ember's Rekindled.  The easiest way is to craft a Ember Bore and place it on bedrock.  Then fuel it with burnables to dig up Ember from the bedrock."]
+			entity_vis_size: 1.0f
 			id: "27D2D4BE1981DBD0"
 			rewards: [{
 				count: 64
@@ -42,6 +44,7 @@
 		{
 			dependencies: ["28373D6CC6C2D577"]
 			description: ["Pipes are useful to transfer items from chest to chest, you can automate the Ember Bore with these.  The Item Extractor needs a redstone signal to function."]
+			entity_vis_size: 1.0f
 			id: "7322666DFB5345B3"
 			rewards: [{
 				id: "6D28719DCABDD6B4"
@@ -67,6 +70,7 @@
 		{
 			dependencies: ["28373D6CC6C2D577"]
 			description: ["Fluid pipes are much more useful later in Ember's Rekindled.  The Fluid Extractor needs a redstone signal to function."]
+			entity_vis_size: 1.0f
 			id: "2ABEB32223F9C132"
 			tasks: [
 				{
@@ -87,6 +91,7 @@
 		{
 			dependencies: ["1ED7252BB655DEE4"]
 			description: ["This lets you see useful information about blocks inputs and outputs."]
+			entity_vis_size: 1.0f
 			id: "5A10B19705773A71"
 			rewards: [{
 				id: "706F255C50C7FB08"
@@ -104,6 +109,7 @@
 		{
 			dependencies: ["27D2D4BE1981DBD0"]
 			description: ["Ember needs to be activated and turned into a raw energy form before it becomes useful.  Insert ember into the bottom of the activator using a item pipe or hopper and inserting into the bottom of the activator."]
+			entity_vis_size: 1.0f
 			id: "1ED7252BB655DEE4"
 			rewards: [{
 				count: 64
@@ -123,6 +129,7 @@
 		{
 			dependencies: ["1ED7252BB655DEE4"]
 			description: ["You can attach a heat exchanger on the bottom to make ember grit useable and make ember shards more efficient."]
+			entity_vis_size: 1.0f
 			id: "3083F681A43D26DA"
 			tasks: [{
 				id: "1303C86CBEB61DE0"
@@ -136,6 +143,7 @@
 		{
 			dependencies: ["1ED7252BB655DEE4"]
 			description: ["Ember Dials let you see how much Ember is in a machine."]
+			entity_vis_size: 1.0f
 			id: "405A37DD68BC0757"
 			rewards: [{
 				id: "4B66BD2C4C92EC48"
@@ -158,6 +166,7 @@
 				"{@pagebreak}"
 				"You can link a Ember Emitter with a Ember Recepter by right clicking a Ember Emitter with a Tinker Hammer and then right clicking the Ember Recepter you wish to link it to."
 			]
+			entity_vis_size: 1.0f
 			id: "519B036887C4FA7C"
 			rewards: [{
 				id: "63BBCF63FEB92924"
@@ -183,6 +192,7 @@
 		{
 			dependencies: ["519B036887C4FA7C"]
 			description: ["Ember Relays and Mirror Relays can extend the distance at which ember travels."]
+			entity_vis_size: 1.0f
 			id: "4ED22A9C325C2559"
 			rewards: [{
 				id: "67FCFEFFE6BF968D"
@@ -208,6 +218,7 @@
 		{
 			dependencies: ["519B036887C4FA7C"]
 			description: ["Copper Cells can be used to store excess ember."]
+			entity_vis_size: 1.0f
 			id: "7A44BF97409A8C27"
 			rewards: [{
 				id: "77D6C786D9A25C62"
@@ -239,6 +250,7 @@
 		{
 			dependencies: ["519B036887C4FA7C"]
 			description: ["The Hearth Coil acts as a super furnace.  Power it with ember, then drop items on top and it will smelt the items super fast.  Extract your now smelted items by piping them out of the bottom."]
+			entity_vis_size: 1.0f
 			id: "6F8959E003213E54"
 			rewards: [{
 				count: 64
@@ -258,6 +270,7 @@
 		{
 			dependencies: ["519B036887C4FA7C"]
 			description: ["Input ember into the bottom and items into the top.  It will melt the items put into it into a molten form."]
+			entity_vis_size: 1.0f
 			id: "54804E4A7023150F"
 			rewards: [{
 				count: 64
@@ -275,6 +288,7 @@
 		}
 		{
 			description: ["This is the guide to Embers Rekindled if you wish to read it yourself."]
+			entity_vis_size: 1.0f
 			id: "513D9A71F25EFE19"
 			rewards: [{
 				id: "4BE6B6F56836985B"
@@ -292,6 +306,7 @@
 		{
 			dependencies: ["6F8959E003213E54"]
 			description: ["Reduces the Hearth Coil's ember consumption by 30%"]
+			entity_vis_size: 1.0f
 			id: "2AC58AF7F2B54A4C"
 			rewards: [{
 				id: "2C96B7A0ED51D632"
@@ -312,6 +327,7 @@
 				"The Char Instiller allows the Hearth Coil to smelt only smoker recipes but makes it twice as quick."
 				"The Atmospheric Bellows allows the Hearth Coil to smelt only blasting recipes but makes it twice as quick."
 			]
+			entity_vis_size: 1.0f
 			id: "09F2D70C42623E5B"
 			rewards: [{
 				id: "741A58266AE732CE"
@@ -336,6 +352,7 @@
 		{
 			dependencies: ["54804E4A7023150F"]
 			description: ["When attached to a Melter it gives you a by-product of other various ores based on what was put in."]
+			entity_vis_size: 1.0f
 			id: "605837C1FBB84EFD"
 			rewards: [{
 				id: "675F6BAF4BF527EA"
@@ -353,6 +370,7 @@
 		{
 			dependencies: ["54804E4A7023150F"]
 			description: ["The Stamper, when powered with ember, allows you to turn molten metals into ingots and other various items."]
+			entity_vis_size: 1.0f
 			id: "1F03F69C4299F4B2"
 			rewards: [{
 				count: 64
@@ -403,6 +421,7 @@
 		{
 			dependencies: ["1F03F69C4299F4B2"]
 			description: ["When the Mixer Centrifuge is powered with ember and 2 different types of molten metals are piped in, it can alloy the metals together and create new types of metal."]
+			entity_vis_size: 1.0f
 			id: "067DE5B152299597"
 			rewards: [{
 				count: 64
@@ -422,6 +441,7 @@
 		{
 			dependencies: ["067DE5B152299597"]
 			description: ["Dawnstone is needed to create various important items."]
+			entity_vis_size: 1.0f
 			id: "3F21F1A8DC8C61DF"
 			rewards: [{
 				count: 12
@@ -444,6 +464,7 @@
 				""
 				"You can increase it's efficiency even further by putting it on a metal block and surrounding it by lava."
 			]
+			entity_vis_size: 1.0f
 			id: "776DD35985FE949C"
 			rewards: [{
 				count: 64
@@ -463,6 +484,7 @@
 		{
 			dependencies: ["3F21F1A8DC8C61DF"]
 			description: ["The Crystal Cell can store a much larger quantity of ember.  You can also put in ember items to increase the storage."]
+			entity_vis_size: 1.0f
 			id: "179AFB610C62FB04"
 			rewards: [{
 				id: "6FAE95FB8775D857"
@@ -481,6 +503,7 @@
 		{
 			dependencies: ["3F21F1A8DC8C61DF"]
 			description: ["You can use Ember Emitters and Ember Funnels to transfer your ember quicker."]
+			entity_vis_size: 1.0f
 			id: "49B687F868D7F9A7"
 			rewards: [{
 				id: "7DB3415AE62064BE"
@@ -506,6 +529,7 @@
 		{
 			dependencies: ["3F21F1A8DC8C61DF"]
 			description: ["You can use this to split the ember beams in multiple directions."]
+			entity_vis_size: 1.0f
 			id: "6148ED6950BD83D6"
 			rewards: [{
 				id: "4E043F61E20B0A53"
@@ -523,6 +547,7 @@
 		{
 			dependencies: ["3F21F1A8DC8C61DF"]
 			description: ["The charger can be used to charge small containers to power useful items later."]
+			entity_vis_size: 1.0f
 			id: "545E72F0AE82CAC8"
 			rewards: [{
 				id: "37B7660A927B2965"
@@ -544,6 +569,7 @@
 				""
 				"Mantle Jars can be anywhere in your inventory but hold less ember."
 			]
+			entity_vis_size: 1.0f
 			id: "3622A7293D3E7EF4"
 			rewards: [{
 				id: "4FB22763A5C4F331"
@@ -610,6 +636,7 @@
 				"{@pagebreak}"
 				"The Clockwork Axe functions as a powerful axe as long as it's powered by ember."
 			]
+			entity_vis_size: 1.0f
 			id: "7EFC22CC29197645"
 			rewards: [
 				{
@@ -680,6 +707,7 @@
 				"{@pagebreak}"
 				"The Blazing Ray acts as a long range firearm consuming ember to shoot."
 			]
+			entity_vis_size: 1.0f
 			id: "2F7479FA505FA8B4"
 			rewards: [
 				{
@@ -746,6 +774,7 @@
 				""
 				"After you try the recipe and if it fails you will be provided with an Alchemic Waste, right click it to gain some information.  The amount of pale dots means a right Aspectus but paired with the wrong ingrediant.  The amount of glowing dots means the right Aspectus paired with the right ingrediant."
 			]
+			entity_vis_size: 1.0f
 			id: "2A57ABDBB7467460"
 			rewards: [{
 				id: "7A412F4FAAC22DF3"
@@ -806,6 +835,7 @@
 		{
 			dependencies: ["2A57ABDBB7467460"]
 			description: ["One of the first items you'll want to craft is a Codebreaking Slate.  It allows you to store multiple Alchemical Waste in it and cross-reference them all at the same time."]
+			entity_vis_size: 1.0f
 			id: "7258B07D9FE05210"
 			rewards: [{
 				id: "71A20A3D86877633"
@@ -823,6 +853,7 @@
 		{
 			dependencies: ["7258B07D9FE05210"]
 			description: ["The Mnemonic Inscriber is attached to the Alchemy Tablet.  When paper is placed inside and an item is successfully made it will inscribe on the paper the correct recipe."]
+			entity_vis_size: 1.0f
 			id: "396991035E3FA870"
 			rewards: [{
 				count: 16
@@ -845,6 +876,7 @@
 				""
 				"The Glimmer Lamp allows you to do so at a further range but has less storage and recharges slower in daylight."
 			]
+			entity_vis_size: 1.0f
 			id: "104E1BCFD9C753A5"
 			rewards: [{
 				id: "22EC0D7F97059A2B"
@@ -882,6 +914,7 @@
 		{
 			dependencies: ["7258B07D9FE05210"]
 			description: ["A sword that deals less damage than a normal lead sword but deals increased damage to armored foes."]
+			entity_vis_size: 1.0f
 			id: "2977E9D9C9AFC6EE"
 			rewards: [{
 				id: "47BC20C82C7A0888"
@@ -905,6 +938,7 @@
 		{
 			dependencies: ["7258B07D9FE05210"]
 			description: ["A set of armor slightly worse than diamond and can be upgraded later."]
+			entity_vis_size: 1.0f
 			id: "054741C0A9F0454D"
 			rewards: [{
 				id: "64CD9979F77FA5C0"
@@ -969,6 +1003,7 @@
 				"{@pagebreak}"
 				"They can be added to the armor by putting it in a crafting table with one and removed by putting a armor by itself in a crafting table."
 			]
+			entity_vis_size: 1.0f
 			id: "3EA2CF5C7EE206E9"
 			rewards: [{
 				id: "0606F9E63062FF4B"
@@ -990,6 +1025,7 @@
 		{
 			dependencies: ["7258B07D9FE05210"]
 			description: ["By alchemically fusing ember together they become much more potent and efficient."]
+			entity_vis_size: 1.0f
 			id: "3576E647810ED324"
 			rewards: [{
 				count: 4
@@ -1008,6 +1044,7 @@
 		{
 			dependencies: ["27D2D4BE1981DBD0"]
 			description: ["Use this to find the most efficient spot to place the Ember Bore."]
+			entity_vis_size: 1.0f
 			id: "18180A068A7FFCD3"
 			rewards: [{
 				id: "49B09A934A77638F"
@@ -1025,6 +1062,7 @@
 		{
 			dependencies: ["3576E647810ED324"]
 			description: ["These reduce the amount of ember your tools use."]
+			entity_vis_size: 1.0f
 			id: "5643C1EBA261754E"
 			rewards: [{
 				id: "20C439080321AFE7"
@@ -1055,6 +1093,7 @@
 		{
 			dependencies: ["3576E647810ED324"]
 			description: ["This amulet nullifies 90% of magical damage."]
+			entity_vis_size: 1.0f
 			id: "56347EC2712B69C1"
 			rewards: [{
 				id: "290A6B5A73372BFD"
@@ -1072,6 +1111,7 @@
 		{
 			dependencies: ["3576E647810ED324"]
 			description: ["When you kill a mob while wearing this amulet they will only drop ash."]
+			entity_vis_size: 1.0f
 			id: "1BF7B7D9D744EA0A"
 			rewards: [{
 				id: "5720A8B8D7E0CE7D"
@@ -1089,6 +1129,7 @@
 		{
 			dependencies: ["3576E647810ED324"]
 			description: ["While wearing this you will receive no knockback."]
+			entity_vis_size: 1.0f
 			id: "2CE944E854C8C72A"
 			rewards: [{
 				id: "5C692F9A5616C17F"
@@ -1106,6 +1147,7 @@
 		{
 			dependencies: ["3576E647810ED324"]
 			description: ["This amulet absorbs explosion damage, you may add it to alchemy pedestals to protect them from explosions."]
+			entity_vis_size: 1.0f
 			id: "0E9B1CB9C2FB4D68"
 			rewards: [{
 				id: "2A32613E7BFF98DC"
@@ -1131,6 +1173,7 @@
 		{
 			dependencies: ["7DE1D63A1EBE1ECD"]
 			description: ["Put a Dawnstone Anvil somewhere and an Automatic Hammer above it.  Power the Automatic Hammer with ember."]
+			entity_vis_size: 1.0f
 			id: "2747E307CC16DDF5"
 			rewards: [{
 				id: "4D6A986394D5EA3B"
@@ -1156,6 +1199,7 @@
 		{
 			dependencies: ["7258B07D9FE05210"]
 			description: ["This acts as an alternative to balls of slime."]
+			entity_vis_size: 1.0f
 			id: "5CE5348DF841E58E"
 			rewards: [{
 				count: 64
@@ -1174,6 +1218,7 @@
 		{
 			dependencies: ["3576E647810ED324"]
 			description: ["Used for later crafting."]
+			entity_vis_size: 1.0f
 			id: "7DE1D63A1EBE1ECD"
 			rewards: [{
 				count: 5
@@ -1192,6 +1237,7 @@
 		{
 			dependencies: ["7DE1D63A1EBE1ECD"]
 			description: ["The Ember Injector allows you to put metal seeds in them and when powered by ember they will grow the associated metal."]
+			entity_vis_size: 1.0f
 			id: "26DAA289869E3EC6"
 			rewards: [{
 				id: "350FABB63C41E33F"
@@ -1209,6 +1255,7 @@
 		{
 			dependencies: ["7DE1D63A1EBE1ECD"]
 			description: ["When a Ignem Reactor is placed between both top parts of a Combustion  Chamber and a Catalysis Chamber, and they are both fueled, it will refine ember."]
+			entity_vis_size: 1.0f
 			id: "3315F585C88C4BC7"
 			rewards: [
 				{
@@ -1247,6 +1294,7 @@
 		{
 			dependencies: ["7DE1D63A1EBE1ECD"]
 			description: ["This machine will reduce the consumption of ember that machines use when it is attached to them."]
+			entity_vis_size: 1.0f
 			id: "5BB1A03DDE6A3E31"
 			rewards: [{
 				id: "0D1335F537A18082"
@@ -1264,6 +1312,7 @@
 		{
 			dependencies: ["2747E307CC16DDF5"]
 			description: ["You can put Isolated Materia, in a dawnstone anvil, on top of any item to fully repair it."]
+			entity_vis_size: 1.0f
 			id: "45B7E6098B545E00"
 			rewards: [{
 				count: 12
@@ -1282,6 +1331,7 @@
 		{
 			dependencies: ["2747E307CC16DDF5"]
 			description: ["You can place a item on the Dawnstone Anvil and an Ancient Motive Core on top of it to make it able to absorb heat."]
+			entity_vis_size: 1.0f
 			id: "6354AD587755E0B1"
 			rewards: [{
 				id: "25066EC1BFC8805B"
@@ -1308,6 +1358,7 @@
 				"{@pagebreak}"
 				"The most notable augments are mentioned here.  The rest can be found in the last chapter of the Ancient Codex."
 			]
+			entity_vis_size: 1.0f
 			id: "5B0D239749C046E6"
 			rewards: [{
 				id: "21DD8383A9AB51F9"
@@ -1325,6 +1376,7 @@
 		{
 			dependencies: ["5B0D239749C046E6"]
 			description: ["By augmenting this into your armor some mobs will not attack you."]
+			entity_vis_size: 1.0f
 			id: "694B4CBC15EE3082"
 			rewards: [{
 				id: "1A68999E0D4277C7"
@@ -1342,6 +1394,7 @@
 		{
 			dependencies: ["5B0D239749C046E6"]
 			description: ["This augment allows you to have anything shoot projectiles when you use it."]
+			entity_vis_size: 1.0f
 			id: "5EFAFD08D47F3A5C"
 			rewards: [{
 				id: "70C8C0B244D5F311"
@@ -1359,6 +1412,7 @@
 		{
 			dependencies: ["5B0D239749C046E6"]
 			description: ["The Diffraction Barrel can turn any ember based ranged weapon into a shotgun."]
+			entity_vis_size: 1.0f
 			id: "685D77607381560D"
 			rewards: [{
 				id: "2C1FA4BD2DBAB307"
@@ -1376,6 +1430,7 @@
 		{
 			dependencies: ["5B0D239749C046E6"]
 			description: ["This will either may a ray piercing or a projectile homing for ember based weapons."]
+			entity_vis_size: 1.0f
 			id: "2BA2124896BC6834"
 			rewards: [{
 				id: "1D3EB06012013FBB"

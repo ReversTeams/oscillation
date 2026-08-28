@@ -1,0 +1,20 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:the_deep_void:apostle_of_catastrophe_treasure_bag",
+    "item:the_deep_void:false_hydra_treasure_bag",
+    "item:the_deep_void:weaver_of_souls_treasure_bag",
+    "item:the_deep_void:misanthropic_hivemind_treasure_bag",
+    "item:the_deep_void:sacred_cinnabar",
+    "item:the_deep_void:voidrium_gem",
+    "item:itemfilters:always_true"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

@@ -55,8 +55,6 @@
 		fireHeartOnNormal = true
 		#Allow fire on poisoned hearts.
 		fireHeartOnPoison = true
-		#Allow fire on hearts while Regeneration is active.
-		fireHeartOnRegeneration = true
 		#Allow fire on withered hearts.
 		fireHeartOnWither = true
 		#Allow fire on frozen hearts.
@@ -80,16 +78,6 @@
 		frozenHeartMaxAlpha = 1.0
 		#Show animated bubbles rising from health hearts while the player is poisoned.
 		poisonBubbles = true
-		#Use the green poison flame palette while poisoned. Disable to keep normal red-orange fire.
-		poisonColoredFire = true
-		#Use the red-pink regeneration flame palette while Regeneration is active. Disable to keep normal red-orange fire.
-		regenerationColoredFire = true
-		#Use the black wither flame palette while Wither is active. Disable to keep normal red-orange fire.
-		witherColoredFire = true
-		#Use the icy-blue frozen flame palette on frozen hearts. Disable to keep normal red-orange fire.
-		frozenColoredFire = true
-		#Use the golden flame palette on absorption hearts. Disable to keep normal red-orange fire.
-		absorptionColoredFire = true
 		#Fade newly gained absorption hearts in smoothly instead of showing them instantly.
 		absorptionAppearAnimation = true
 		#Duration of one absorption-heart fade-in in ticks. Higher = slower. 20 ticks = 1 second.

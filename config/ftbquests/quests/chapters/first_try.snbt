@@ -11,7 +11,7 @@
 		}
 	}
 	id: "100828D0D32BA349"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -20,6 +20,7 @@
 				""
 				"To save you some time, we'll be giving you this starter kit, as well as the quest category \"Timesavers\" so you don't have to waste your time doing vanilla stuff that's easy but time consuming."
 			]
+			entity_vis_size: 1.0f
 			icon: "minecraft:spruce_sign"
 			id: "43A395FB96AAE476"
 			rewards: [
@@ -150,6 +151,7 @@
 				""
 				"So, for the purposes of this test, please don't craft any core modded progression outside of what is allowed in this questline! Of course, you can use modded amenities, but use discretion. Thank you!"
 			]
+			entity_vis_size: 1.0f
 			icon: {
 				Count: 1
 				id: "eidolon:chant_scroll"
@@ -174,6 +176,7 @@
 		{
 			dependencies: ["43A395FB96AAE476"]
 			description: ["Automatically bound to &lZ&r on the keyboard is your Dodge Roll ability! You innately start with 2 dodge rolls, which have a slight cooldown. While rolling, you are immune to damage, so try to learn how to take advantage of this during combat!"]
+			entity_vis_size: 1.0f
 			icon: "block_factorys_bosses:rope_roll"
 			id: "6D5F610C426DA42A"
 			rewards: [{
@@ -194,6 +197,7 @@
 		{
 			dependencies: ["43A395FB96AAE476"]
 			description: ["To help with the flow of combat, you are allowed to eat even while you are at full hunger, enabling easier healing opportunities. Happy feasting!"]
+			entity_vis_size: 1.0f
 			icon: "minecraft:cooked_beef"
 			id: "2325002B515A6010"
 			rewards: [{
@@ -219,6 +223,7 @@
 				"{@pagebreak}"
 				"P.S. After the fight, you may notice a strange rift appear. You can take this rift to your current spawn point, so if you set your spawnpoint with a bed, make sure to destroy it to return to world spawn!"
 			]
+			entity_vis_size: 1.0f
 			icon: "bosses_of_mass_destruction:crystal_fruit"
 			id: "4CF416E3A1469824"
 			rewards: [
@@ -263,6 +268,7 @@
 				""
 				"For more comprehensive reference material, try the Lexica Botania!"
 			]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "4074B393459B537B"
 			rewards: [{
@@ -295,6 +301,7 @@
 				""
 				"To begin, grow those Menril saplings you got from the Void Blossom."
 			]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			id: "05BABE49D37904E5"
 			rewards: [{
@@ -320,6 +327,7 @@
 				"{@pagebreak}"
 				"P.S. The Squeezer can be reset by activating it with a redstone signal. If you plop down 2 armor stands on top of it, this action will fling them up into the air, instantly squeezing whatever is in the machine."
 			]
+			entity_vis_size: 1.0f
 			id: "2911541746862D7A"
 			rewards: [{
 				count: 2
@@ -352,6 +360,7 @@
 		{
 			dependencies: ["4074B393459B537B"]
 			description: ["In order to manipulate botanic mana, you'll need to create materials that are more conductive with the magic substance. In order to create Livingwood and Livingrock, you'll need to surround a Pure Daisy (which can be crafted with a Petal Apothecary) with logs and stone, respectively."]
+			entity_vis_size: 1.0f
 			icon: "botania:pure_daisy"
 			id: "499DB42A7E025198"
 			rewards: [
@@ -397,6 +406,7 @@
 				"{@pagebreak}"
 				"To get started, craft your first (and for this playtest, only) spellbook, the Flimsy Journal. Then you can inscribe the spells obtained by your quests into your book with the Inscription table. In order to cast spells, hold R to open your spell wheel, release it when it's hovering over your preferred spell, then press V to cast."
 			]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -451,6 +461,7 @@
 				""
 				"If you do get your hands on the cloth, I recommend either the Scarecrow or the Wizard set for this playtest."
 			]
+			entity_vis_size: 1.0f
 			id: "2F8D29BC6D461358"
 			rewards: [{
 				count: 4
@@ -470,6 +481,7 @@
 		{
 			dependencies: ["2911541746862D7A"]
 			description: ["In order to utilize the cables that allow for item/fluid/energy mobility, we must first talk about Variable Cards. They serve a simple purpose: indicating a value that activates importers/exporters for our interfaces. I know that sounds confusing to the layman, but trust me, it's not that bad once you get started. Just make em!"]
+			entity_vis_size: 1.0f
 			icon: "integrateddynamics:variable"
 			id: "2CD0505DE2CBD530"
 			rewards: [{
@@ -502,6 +514,7 @@
 				"{@pagebreak}"
 				"Then, insert the Variable Card in the topmost option when right clicking the Importer, which should be \"Import all X\", which is asking for a Boolean. By adding the Variable Card into that slot, which is set to 'true' by default, the Importer is now moving all objects from the container it's connected to into the system designated by the Interface. Neat, right?"
 			]
+			entity_vis_size: 1.0f
 			id: "42C6437D9E707DA8"
 			tasks: [
 				{
@@ -559,6 +572,7 @@
 				"{@pagebreak}"
 				"Then, right click the Mana Spreader with your Wand of the Forest, and right click the Mana Pool right after. This will point the spreader in the pool's direction. Then, depending on the generating flora you chose, either give it flammable fuel or put water around it. Presto, now you have mana!"
 			]
+			entity_vis_size: 1.0f
 			id: "0E6BB1B94F92D016"
 			rewards: [{
 				count: 3
@@ -609,6 +623,7 @@
 		{
 			dependencies: ["2911541746862D7A"]
 			description: ["Typically, Menril Berries are rather hard to obtain, only dropping rarely from Menril Leaves, but if you drench Sweet Berries in Menril Resin, you can actually make them artificially! This is useful for certain crafting recipes."]
+			entity_vis_size: 1.0f
 			id: "1DE3CA6923D5D280"
 			rewards: [{
 				id: "0B74D10744B0383F"
@@ -635,6 +650,7 @@
 				"{@pagebreak}"
 				"You technically don't need to engage with this automation aspect, but it's &ohighly recommended&r that you do so, as the following bosses can be rather painful without a way to relocate at a moment's notice."
 			]
+			entity_vis_size: 1.0f
 			id: "782AA563ECFBB4FB"
 			tasks: [
 				{
@@ -661,6 +677,7 @@
 		{
 			dependencies: ["0E6BB1B94F92D016"]
 			description: ["If, for any reason, you feel the need to use Forge Energy, you can actually convert Mana into FE with this handy block!"]
+			entity_vis_size: 1.0f
 			id: "04A239EC020B0805"
 			rewards: [{
 				id: "374D2759236D623E"
@@ -685,6 +702,7 @@
 		{
 			dependencies: ["2911541746862D7A"]
 			description: ["If you ever decide that the default Squeezer and Drying Basin aren't cutting it for your infrastructure, you can always upgrade to their mechanical variants! Though, do be warned, these blocks require FE to function."]
+			entity_vis_size: 1.0f
 			id: "24C21BE8F532694F"
 			rewards: [{
 				count: 4
@@ -711,6 +729,7 @@
 		{
 			dependencies: ["0E6BB1B94F92D016"]
 			description: ["For the purposes of this test, you can probably get away with just using the Endoflame or Hydroangea for your mana generation, but there are multiple other options available to you for creating mana, which are much more efficient! I won't go over them now though, you can check your Lexica Botania for more information."]
+			entity_vis_size: 1.0f
 			icon: "botania:manastar"
 			id: "352B3EC0B6621298"
 			rewards: [{
@@ -730,6 +749,7 @@
 		{
 			dependencies: ["0E6BB1B94F92D016"]
 			description: ["For this stage of progression, the Runic Altar represents the end of the required infrastructure, as from here you'll be able to move on to the next boss."]
+			entity_vis_size: 1.0f
 			id: "33BEC7C486F00A97"
 			rewards: [{
 				count: 16
@@ -751,6 +771,7 @@
 				"In order to proceed, you'll need to trade a Rune of Earth for this compass that can locate Sirok the Sandworm's nest, which is how you'll gain access to the next branch of progression."
 				"(Please only use the compass to track the Sandworm Nest. It's a placeholder.)"
 			]
+			entity_vis_size: 1.0f
 			id: "1747E76335E239ED"
 			rewards: [{
 				id: "48BD9BB5F461F18A"
@@ -774,6 +795,7 @@
 		{
 			dependencies: ["1747E76335E239ED"]
 			description: ["Now that you've equipped yourself with better gear, you can now face Sirok, the menace of the desert. Fair warning, fall damage is a real threat in this fight, so be prepared to have a way to mitigate it when it comes up!"]
+			entity_vis_size: 1.0f
 			id: "6F9B9F59CF486332"
 			rewards: [{
 				id: "1AE7323FF1078CC3"
@@ -806,6 +828,7 @@
 				""
 				"&oor, yknow, you could look it up. if you're a bum."
 			]
+			entity_vis_size: 1.0f
 			hide_until_deps_complete: true
 			icon: "alexscaves:spelunkery_table"
 			id: "40371EA4340F90A8"
@@ -868,6 +891,7 @@
 		{
 			dependencies: ["40371EA4340F90A8"]
 			description: ["Now that you have your map, all that's left to do is embark out on your journey! Good luck!"]
+			entity_vis_size: 1.0f
 			id: "5607441F4DE09E5B"
 			rewards: [{
 				id: "6F46E17CC3C8FD7C"
@@ -910,6 +934,7 @@
 		{
 			dependencies: ["5607441F4DE09E5B"]
 			description: ["The Magnetic Caves are home to a unique material, Neodymium! It comes in 2 variations, Scarlet and Azure. Be sure to harvest a decent bit of it before coming home!"]
+			entity_vis_size: 1.0f
 			id: "21AC8A54E3CB3AB2"
 			rewards: [{
 				id: "66F0A336E1D3B65E"
@@ -935,6 +960,7 @@
 		{
 			dependencies: ["5607441F4DE09E5B"]
 			description: ["&opsst. you should really make one of these for later."]
+			entity_vis_size: 1.0f
 			id: "34354001C13057B5"
 			rewards: [{
 				id: "258E85B8E9887714"
@@ -959,6 +985,7 @@
 				""
 				"If it spins rapidly then the meteor is within the same chunk as you.  If you don't see it then you need to dig down."
 			]
+			entity_vis_size: 1.0f
 			id: "4A08D8F39A1F138A"
 			tasks: [{
 				id: "3C7706F3300F6E8B"
@@ -971,6 +998,7 @@
 		{
 			dependencies: ["21AC8A54E3CB3AB2"]
 			description: ["One of the Magnetic Caves' unique exports, the Galena Gauntlet is a rather useful implement that allows the one using it to interact with blocks and mobs from a rather far distance. By putting the gauntlet in your off-hand and wielding a compatible tool with your main hand, you can magnetically control the object from many blocks away!"]
+			entity_vis_size: 1.0f
 			id: "24C7EF98D4646ED6"
 			rewards: [
 				{
@@ -1019,6 +1047,7 @@
 		{
 			dependencies: ["21AC8A54E3CB3AB2"]
 			description: ["The Resistor Shield is a curious piece of equipment only made available by the magnetic qualities of Neodymium. Depending on the polarity selected, it can either "]
+			entity_vis_size: 1.0f
 			id: "4E943AFDD3B533B0"
 			rewards: [
 				{
@@ -1075,6 +1104,7 @@
 				"Well, here you are! The last step before the end of the playtest. To enter Acropolis, the dimension housing the \"final boss\" of your journey, you must assemble the Eye of Storm."
 				"When you're there, you'll gain access to Lacrima, which can be traded for enchantments in the Timesavers section, but other than that, make sure you have geared up adequately!"
 			]
+			entity_vis_size: 1.0f
 			id: "57C92BBF0305CB44"
 			rewards: [{
 				id: "3C312A893A2CFB4A"
@@ -1097,6 +1127,7 @@
 				""
 				"You will also need a crank to power the charger.  attach the crank to the side and place certus quartz inside the charger, then rotate the crank a few times to charge it."
 			]
+			entity_vis_size: 1.0f
 			id: "301AF09AEC14BDFD"
 			rewards: [{
 				count: 8
@@ -1129,6 +1160,7 @@
 		{
 			dependencies: ["4A08D8F39A1F138A"]
 			description: ["You can grow your own certus quartz by using certus quartz blocks, be careful as every time you mine them they will deteriorate as well as over time naturally.  You can refresh them by dropping them in water alongside some charge certus quartz."]
+			entity_vis_size: 1.0f
 			id: "38CFA23E43B5000A"
 			rewards: [{
 				count: 16
@@ -1166,6 +1198,7 @@
 				"You have everything you'd need in order to win."
 				"Good luck!"
 			]
+			entity_vis_size: 1.0f
 			id: "3DCD4DCE905C54C3"
 			rewards: [
 				{
@@ -1196,6 +1229,7 @@
 		{
 			dependencies: ["301AF09AEC14BDFD"]
 			description: ["For information on getting started with ME I recommend making the guide, it has a getting started section with everything you need to know."]
+			entity_vis_size: 1.0f
 			id: "3F48F3BBE993F06B"
 			tasks: [{
 				id: "445243CA9E5A2EE5"
@@ -1212,6 +1246,7 @@
 				""
 				"...In case I do, it exists on a separate cooldown from normal Enderpearls."
 			]
+			entity_vis_size: 1.0f
 			id: "645A62F7764DD450"
 			tasks: [{
 				id: "65AF7E508915C545"

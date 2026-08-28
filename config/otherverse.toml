@@ -22,4 +22,8 @@
 	dimensional_primes = ["minecraft:overworld=otherverse:salt", "minecraft:the_nether=otherverse:sulfur", "minecraft:the_end=otherverse:quicksilver", "default=otherverse:cinnabar"]
 	#If this list is not empty, at least one of these items must be in your inventory for you to use the Sight.
 	sight_items = []
+	#Total amount of Self. Self doesn't change with max HP; e.g. if you had the default 10 total Self but 20 hearts of HP, you would lose 2 hearts by spending 1 Self  .
+	total_self = 10
+	#Self recovered from an advancement.
+	advancement_self = 10
 
