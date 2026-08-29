@@ -1,6 +1,18 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:mowziesmobs:elokosa_paw_new{Damage:0}",
+    "item:mowziesmobs:elokosa_paw_crescent{Damage:0}",
+    "item:mowziesmobs:elokosa_paw_half{Damage:0}",
+    "item:mowziesmobs:elokosa_paw_gibbous{Damage:0}",
+    "item:mowziesmobs:elokosa_paw_full{Damage:0}",
+    "item:minecraft:redstone_block",
+    "item:minecraft:pig_spawn_egg",
+    "item:irons_spellbooks:furled_map{display:{Lore:[\u0027{\"color\":\"gold\",\"translate\":\"item.irons_spellbooks.furled_map_descriptor_framing\",\"with\":[{\"translate\":\"item.irons_spellbooks.evoker_fort_battle_plans\"}]}\u0027]},\"irons_spellbooks:furled_map_data\":{descriptionOverride:{translate:\"item.irons_spellbooks.evoker_fort_battle_plans\"},destination:\"irons_spellbooks:evoker_fort\",dimension:\"minecraft:overworld\"}}",
+    "item:otherverse:rancid_flesh",
+    "item:otherverse:ended_pearl",
+    "item:the_deep_void:ichor_carver{Damage:0}",
+    "item:the_deep_void:onyx_naginata{Damage:0}",
     "item:the_deep_void:apostle_of_catastrophe_treasure_bag",
     "item:the_deep_void:false_hydra_treasure_bag",
     "item:the_deep_void:weaver_of_souls_treasure_bag",
