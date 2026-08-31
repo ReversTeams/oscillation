@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "prologue"
+	group: ""
+	icon: "ftbquests:book"
+	id: "77A41B1BABFA172F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["The"]
+		entity_vis_size: 1.0f
+		id: "7969988668A94C44"
+		tasks: [{
+			id: "3361C82FB0B5C038"
+			title: "What happened?"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: -0.5d
+	}]
+	title: "Prologue"
+}

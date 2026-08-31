@@ -79,8 +79,8 @@
 	#If bosses should have damage caps
 	DoDamageCap = false
 	#How much armor should the broken armor effect remove (percentage removed)
-	BrokenArmorAmplifier = 0.65
-	GiveWikiBook = true
+	BrokenArmorAmplifier = 0.35
+	GiveWikiBook = false
 	#If the bosses' health should scale based on the number of players
 	DoBossHpScaling = true
 	#How many hits it takes before the Voidborn disappears (damage is irrelevant)
@@ -90,7 +90,7 @@
 	#If bosses should go back to idling when there are no players nearby
 	BossIdles = false
 	#If brain fog should be applied to the player when in the misted remnants
-	DoBrainFog = true
+	DoBrainFog = false
 	#If the false hydra should remove brain fog when it is killed
 	FalseHydraRemovesBrainFog = true
 	#In ticks

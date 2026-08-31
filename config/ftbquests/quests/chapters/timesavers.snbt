@@ -5,12 +5,13 @@
 	group: ""
 	icon: "botania:cosmetic_clock_eye"
 	id: "65EE9128EA513D89"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			can_repeat: true
 			description: [""]
+			entity_vis_size: 1.0f
 			icon: { Count: 16, id: "minecraft:dirt" }
 			id: "1445D6F7789A63F0"
 			rewards: [{
@@ -32,6 +33,7 @@
 		}
 		{
 			can_repeat: true
+			entity_vis_size: 1.0f
 			icon: "botania:divining_rod"
 			id: "305E695F5CE668ED"
 			rewards: [{
@@ -67,6 +69,7 @@
 		}
 		{
 			can_repeat: true
+			entity_vis_size: 1.0f
 			icon: "botania:tangleberrie"
 			id: "0913E76DA2B5A234"
 			rewards: [{
@@ -102,6 +105,7 @@
 		}
 		{
 			can_repeat: true
+			entity_vis_size: 1.0f
 			id: "534C77F33A23EDCF"
 			rewards: [{
 				id: "5C087F03E861947E"
@@ -136,6 +140,7 @@
 		}
 		{
 			can_repeat: true
+			entity_vis_size: 1.0f
 			id: "796AD8604DB70583"
 			rewards: [{
 				id: "20BBD4E6B2D8E325"
@@ -170,6 +175,7 @@
 		}
 		{
 			can_repeat: true
+			entity_vis_size: 1.0f
 			id: "6F946D42A30F4B7F"
 			rewards: [{
 				id: "5614E28CC294F82E"
@@ -197,6 +203,7 @@
 		}
 		{
 			can_repeat: true
+			entity_vis_size: 1.0f
 			id: "6F31F37AD5010329"
 			rewards: [{
 				id: "27D20C71918CC5DE"
@@ -224,6 +231,7 @@
 		}
 		{
 			can_repeat: true
+			entity_vis_size: 1.0f
 			id: "53EBB408536B80D3"
 			rewards: [{
 				id: "4488A53BA6A15A9E"
@@ -251,6 +259,7 @@
 		}
 		{
 			can_repeat: true
+			entity_vis_size: 1.0f
 			id: "2187D785F8B3CCE7"
 			rewards: [{
 				id: "62960521835CA2A1"
@@ -278,6 +287,7 @@
 		}
 		{
 			can_repeat: true
+			entity_vis_size: 1.0f
 			id: "5C1040E6EFFDFC50"
 			rewards: [{
 				id: "326758AFCBBCB54E"
@@ -305,6 +315,7 @@
 		}
 		{
 			can_repeat: true
+			entity_vis_size: 1.0f
 			id: "16D39E92813E89A7"
 			rewards: [{
 				id: "30FD5C69FB674DBA"
@@ -332,6 +343,7 @@
 		}
 		{
 			can_repeat: true
+			entity_vis_size: 1.0f
 			id: "5041891F89C1AA17"
 			rewards: [{
 				count: 16
