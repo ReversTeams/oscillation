@@ -73,6 +73,9 @@
     "jade_chamber": true,
     "jade_wireless": true
   },
+  "balm": {
+    "jade": true
+  },
   "integrateddynamicscompat": {
     "proxy": true,
     "mechanical_squeezer": true,
