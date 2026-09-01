@@ -352,6 +352,17 @@
         "value": 34
       }
     },
+    "alexscaves_torpedoes:shadow_remaining_time": {
+      "enabled": false,
+      "min": {
+        "default": -200,
+        "value": -200
+      },
+      "max": {
+        "default": 200,
+        "value": 200
+      }
+    },
     "minecraft:generic.flying_speed": {
       "enabled": true,
       "min": {
