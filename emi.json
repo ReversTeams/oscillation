@@ -1,6 +1,13 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:embers:dawnstone_ingot",
+    {
+      "type": "fluid",
+      "id": "embers:molten_dawnstone",
+      "amount": 90
+    },
+    "item:embers:ashen_fabric",
     "item:alexscaves_torpedoes:pulsargun",
     "item:alexscaves_torpedoes:non_magnetic_alloy",
     "item:alexscaves_torpedoes:dubstep_crystal",

@@ -1,0 +1,8 @@
+{
+  "type": "loot",
+  "isPrefix": "false",
+  "rarity": "rare",
+  "defaultDisplay": "Tester",
+  "variantDisplay": "Testress",
+  "flavorText": "This is for description"
+}
