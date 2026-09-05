@@ -26,4 +26,6 @@
 	total_self = 10
 	#Self recovered from an advancement.
 	advancement_self = 10
+	#Maximum number of Demesne perks that can be chosen.
+	demesnes_perk_count = 10
 
