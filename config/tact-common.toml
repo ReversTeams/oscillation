@@ -13,7 +13,7 @@ applySpelunkeryCompatAdjustments = true
 # Whether to make Underweed, Tree Star, Fiddlehead, and Curly Fern be replaceable by
 # another block when right clicking them while holding a block in your hands.
 #
-replaceableSmallPlants = true
+replaceableSmallPlants = false
 #----------------------------------
 #
 # Whether to make Guano, Guano Block, and Guano Layer be able to be used as fuel in Furnaces.
@@ -25,14 +25,14 @@ guanoBurnFuel = true
 # Full stun time calculation is (Base Time) + (a random number between 0 and Random Extra Time)
 #
 #Range: 0 ~ 1000000
-primitiveClubBaseStunTime = 150
+primitiveClubBaseStunTime = 300
 #----------------------------------
 #
 # Random amount of extra time that Primative Club can stun a mob.
 # Full stun time calculation is (Base Time) + (a random number between 0 and Random Extra Time)
 #
 #Range: 0 ~ 1000000
-primitiveClubRandomExtraStunTime = 150
+primitiveClubRandomExtraStunTime = 50
 #----------------------------------
 #
 # Whether to revert the End Story back to its original form when beating Minecraft.

@@ -73,7 +73,7 @@
 
 	["Candy Cavity"."Gum Worm"]
 		#Whether candy hooks will take damage overtime when riding a gum worm
-		PRESSURED_HOOKS_ENABLED = true
+		PRESSURED_HOOKS_ENABLED = false
 
 ["Forlorn Hollows"]
 	#--Compatible with Curios Lanterns--
@@ -106,7 +106,7 @@
 
 	["Forlorn Hollows".Vesper]
 		#Whether vespers attack underzealots sacrificing vespers
-		ANTI_SACRIFICE_ENABLED = true
+		ANTI_SACRIFICE_ENABLED = false
 		#Whether vespers can be shot down
 		VESPER_SHOTDOWN_ENABLED = true
 
