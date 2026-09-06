@@ -1,6 +1,6 @@
 {
     "name": "The Syllabus",
-    "landing_text": "Welcome to Patchouli",
+    "landing_text": "Greetings, student! We have taken the liberty of noting down the information you should know to increase your quality of life, so peruse at your leisure! Be well! $(br) - Ser Mikondriach",
     "version": 1,
     "creative_tab": "minecraft:tools_and_utilities",
     "use_resource_pack": true,

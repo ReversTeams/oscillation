@@ -1,6 +1,8 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:the_deep_void:hunter_claws{Damage:0}",
+    "item:otherverse:idol{entity_type_namespace:\"the_deep_void\",entity_type_path:\"lurker\"}",
     "item:embers:dawnstone_ingot",
     {
       "type": "fluid",
