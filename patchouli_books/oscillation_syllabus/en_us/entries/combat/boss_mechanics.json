@@ -1,0 +1,27 @@
+{
+    "name": "Boss Mechanics",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:combat",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "While we are certain you will be capable of taking down all those who should oppose you, a number of the opponents you will face may have unique traits that can make them difficult to deal with if you aren’t aware of them beforehand."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "While we won’t list every single unique mechanic of your future foes, these ones are the most noteworthy that are also not entirely intuitive unless you’re informed of them beforehand. Be observant in order to catch these patterns in the wild!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Projectile 'Immunity'$()$(br)One of the more common properties of this world’s guardians, certain individuals can render themselves immune to non-magical projectiles when certain conditions are met. Some entities require you to be within a certain distance in order to prevent them from disabling the projectile, while others may simply negate them passively while they aren’t committing to an attack. Have a keen eye and patient mind, and the solutions should reveal themselves naturally to you."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Predictive Attacks$()$(br)Some hostiles you will encounter have a grasp on prescience, which is reflected in their attacks. They may have certain patterns that will calculate where you are most likely to move next, then striking in that location. A sound strategy to fool any predictive opponent is to move in one direction before the attack, then immediately pivoting to the opposite direction in order to dodge! It’ll be sure to take them by surprise."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Command Grabs$()$(br)A few of the more threatening foes you will face have attacks that, if landed, cannot be traditionally moved out of, as they will grapple you in place until their attack is finished. Evading these attacks is of paramount priority, as if given the opportunity to grab you, your chances of survival fall dramatically. However, don’t fret! There is a way to escape. If you have a method of teleportation, you can break free of their grasp prematurely to avoid their powerful blows."
+        }
+    ]
+}

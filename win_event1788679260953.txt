@@ -1,0 +1,31 @@
+Detected that Windows reported recent critical or error events in the Application log,
+which can indicate that a process (including the Minecraft JVM) terminated unexpectedly.
+Scope: Application log; Levels: Error & Critical; Window: last ~15 seconds.
+
+If no java.exe (or related JVM processes) are listed below, you can disregard this message.
+To inspect these events manually:
+  1) Press Win+R, type "eventvwr.msc", press Enter.
+  2) Open "Windows Logs" → "Application".
+  3) Sort by Date and look for entries with Level = Error or Critical near the crash time.
+
+-----------------------
+Time: 2026-09-06 00:20:54.957 PDT
+Source: Application Hang
+Event ID: 1002
+Level: Error
+
+Message:
+  The program javaw.exe version 17.0.15.0 stopped interacting with Windows and was closed. To see if more information about the problem is available, check the problem history in the Security and Maintenance control panel.
+
+
+Details:
+  - AppName: javaw.exe
+  - AppVersion: 17.0.15.0
+  - Process ID: 76780 [0x12bec]
+  - Start Time: 2026-09-06 00:13:22.954 PDT [0x1dd3dcf33eb039b]
+  - TerminationTime: 4294967295
+  - ExeFileName: C:\Users\Matthew Acuna\curseforge\minecraft\Install\runtime\java-runtime-gamma\windows-x64\java-runtime-gamma\bin\javaw.exe
+  - ReportId: 42a38f80-b272-43ee-abb1-38d9d48743f0
+  - HangType: Top level window is idle
+-----------------------
+

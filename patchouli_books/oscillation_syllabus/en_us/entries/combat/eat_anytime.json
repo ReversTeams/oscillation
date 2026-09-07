@@ -1,0 +1,15 @@
+{
+    "name": "Eat Anytime",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:combat",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "In order to help your biological functions match that of a potential Monarch, we also altered your appetite in order to help you on your journey. Your body could already naturally convert consumed food into regenerating damage, but it was limited by your hunger, preventing you from healing indefinitely."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "We have alleviated this restriction, allowing you to convert calories into health at any time! However, it should be noted that your saturation is still limited to the amount you had previously, so be sure not to waste food!"
+        }
+    ]
+}
