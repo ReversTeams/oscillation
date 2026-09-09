@@ -23,7 +23,7 @@
 		}
 		{
 			dependencies: ["28373D6CC6C2D577"]
-			description: ["You need ember to power most things in Ember's Rekindled.  The easiest way is to craft a Ember Bore and place it on bedrock.  Then fuel it with burnables to dig up Ember from the bedrock."]
+			description: ["You need ember to power most things in Ember's Rekindled. The easiest way is to craft a Ember Bore and place it on bedrock. Then fuel it with burnables to dig up Ember from the bedrock."]
 			entity_vis_size: 1.0f
 			id: "27D2D4BE1981DBD0"
 			rewards: [{
@@ -43,7 +43,7 @@
 		}
 		{
 			dependencies: ["28373D6CC6C2D577"]
-			description: ["Pipes are useful to transfer items from chest to chest, you can automate the Ember Bore with these.  The Item Extractor needs a redstone signal to function."]
+			description: ["Pipes are useful to transfer items from chest to chest, you can automate the Ember Bore with these. The Item Extractor needs a redstone signal to function."]
 			entity_vis_size: 1.0f
 			id: "7322666DFB5345B3"
 			rewards: [{
@@ -69,7 +69,7 @@
 		}
 		{
 			dependencies: ["28373D6CC6C2D577"]
-			description: ["Fluid pipes are much more useful later in Ember's Rekindled.  The Fluid Extractor needs a redstone signal to function."]
+			description: ["Fluid pipes are much more useful later in Ember's Rekindled. The Fluid Extractor needs a redstone signal to function."]
 			entity_vis_size: 1.0f
 			id: "2ABEB32223F9C132"
 			tasks: [
@@ -108,7 +108,7 @@
 		}
 		{
 			dependencies: ["27D2D4BE1981DBD0"]
-			description: ["Ember needs to be activated and turned into a raw energy form before it becomes useful.  Insert ember into the bottom of the activator using a item pipe or hopper and inserting into the bottom of the activator."]
+			description: ["Ember needs to be activated and turned into a raw energy form before it becomes useful. Insert ember into the bottom of the activator using a item pipe or hopper and inserting into the bottom of the activator."]
 			entity_vis_size: 1.0f
 			id: "1ED7252BB655DEE4"
 			rewards: [{
@@ -249,7 +249,7 @@
 		}
 		{
 			dependencies: ["519B036887C4FA7C"]
-			description: ["The Hearth Coil acts as a super furnace.  Power it with ember, then drop items on top and it will smelt the items super fast.  Extract your now smelted items by piping them out of the bottom."]
+			description: ["The Hearth Coil acts as a super furnace. Power it with ember, then drop items on top and it will smelt the items super fast. Extract your now smelted items by piping them out of the bottom."]
 			entity_vis_size: 1.0f
 			id: "6F8959E003213E54"
 			rewards: [{
@@ -269,7 +269,7 @@
 		}
 		{
 			dependencies: ["519B036887C4FA7C"]
-			description: ["Input ember into the bottom and items into the top.  It will melt the items put into it into a molten form."]
+			description: ["Input ember into the bottom and items into the top. It will melt the items put into it into a molten form."]
 			entity_vis_size: 1.0f
 			id: "54804E4A7023150F"
 			rewards: [{
@@ -483,7 +483,7 @@
 		}
 		{
 			dependencies: ["3F21F1A8DC8C61DF"]
-			description: ["The Crystal Cell can store a much larger quantity of ember.  You can also put in ember items to increase the storage."]
+			description: ["The Crystal Cell can store a much larger quantity of ember. You can also put in ember items to increase the storage."]
 			entity_vis_size: 1.0f
 			id: "179AFB610C62FB04"
 			rewards: [{
@@ -631,7 +631,7 @@
 				"The Clockwork Pickaxe act as a pickaxe and a shovel while powered by ember."
 				""
 				"{@pagebreak}"
-				"The Grandhammer deals high damage and can break blocks.  WARNING: When the Grandhammer breaks blocks they do NOT drop."
+				"The Grandhammer deals high damage and can break blocks. WARNING: When the Grandhammer breaks blocks they do NOT drop."
 				""
 				"{@pagebreak}"
 				"The Clockwork Axe functions as a powerful axe as long as it's powered by ember."
@@ -767,12 +767,12 @@
 		{
 			dependencies: ["3F21F1A8DC8C61DF"]
 			description: [
-				"Put a exchange tablet with a Beam Cannon above it.  Then surroung it with 4 alchemy pedestals."
+				"Put a exchange tablet with a Beam Cannon above it. Then surroung it with 4 alchemy pedestals."
 				""
 				"{@pagebreak}"
 				"Put one Aspectus on each alchemy pedestal to see which ones work on which ones don't."
 				""
-				"After you try the recipe and if it fails you will be provided with an Alchemic Waste, right click it to gain some information.  The amount of pale dots means a right Aspectus but paired with the wrong ingrediant.  The amount of glowing dots means the right Aspectus paired with the right ingrediant."
+				"After you try the recipe and if it fails you will be provided with an Alchemic Waste, right click it to gain some information. The amount of pale dots means a right Aspectus but paired with the wrong ingrediant. The amount of glowing dots means the right Aspectus paired with the right ingrediant."
 			]
 			entity_vis_size: 1.0f
 			id: "2A57ABDBB7467460"
@@ -834,7 +834,7 @@
 		}
 		{
 			dependencies: ["2A57ABDBB7467460"]
-			description: ["One of the first items you'll want to craft is a Codebreaking Slate.  It allows you to store multiple Alchemical Waste in it and cross-reference them all at the same time."]
+			description: ["One of the first items you'll want to craft is a Codebreaking Slate. It allows you to store multiple Alchemical Waste in it and cross-reference them all at the same time."]
 			entity_vis_size: 1.0f
 			id: "7258B07D9FE05210"
 			rewards: [{
@@ -852,7 +852,7 @@
 		}
 		{
 			dependencies: ["7258B07D9FE05210"]
-			description: ["The Mnemonic Inscriber is attached to the Alchemy Tablet.  When paper is placed inside and an item is successfully made it will inscribe on the paper the correct recipe."]
+			description: ["The Mnemonic Inscriber is attached to the Alchemy Tablet. When paper is placed inside and an item is successfully made it will inscribe on the paper the correct recipe."]
 			entity_vis_size: 1.0f
 			id: "396991035E3FA870"
 			rewards: [{
@@ -998,7 +998,7 @@
 		{
 			dependencies: ["054741C0A9F0454D"]
 			description: [
-				"Inflictor Gems can be used to upgrade your armor.  While holding one, when you take damage, they attune to that damage type and reduce it by about one-third while equipped to your armor."
+				"Inflictor Gems can be used to upgrade your armor. While holding one, when you take damage, they attune to that damage type and reduce it by about one-third while equipped to your armor."
 				""
 				"{@pagebreak}"
 				"They can be added to the armor by putting it in a crafting table with one and removed by putting a armor by itself in a crafting table."
@@ -1012,11 +1012,7 @@
 			}]
 			tasks: [{
 				id: "6D8BE7E8776A246B"
-				item: {
-					Count: 1
-					id: "embers:inflictor_gem"
-					tag: { }
-				}
+				item: "embers:inflictor_gem"
 				type: "item"
 			}]
 			x: -0.5d
@@ -1172,7 +1168,7 @@
 		}
 		{
 			dependencies: ["7DE1D63A1EBE1ECD"]
-			description: ["Put a Dawnstone Anvil somewhere and an Automatic Hammer above it.  Power the Automatic Hammer with ember."]
+			description: ["Put a Dawnstone Anvil somewhere and an Automatic Hammer above it. Power the Automatic Hammer with ember."]
 			entity_vis_size: 1.0f
 			id: "2747E307CC16DDF5"
 			rewards: [{
@@ -1353,10 +1349,10 @@
 				"Once you fill up the heat gauge you can power an Inferno Forge with ember and put the heat filled item inside of it to give the item an Augment slot."
 				""
 				"{@pagebreak}"
-				"To insert augments into an item, place the item on an anvil and the augment on top of it.  You can then remove the augment by placing just the item on the anvil."
+				"To insert augments into an item, place the item on an anvil and the augment on top of it. You can then remove the augment by placing just the item on the anvil."
 				""
 				"{@pagebreak}"
-				"The most notable augments are mentioned here.  The rest can be found in the last chapter of the Ancient Codex."
+				"The most notable augments are mentioned here. The rest can be found in the last chapter of the Ancient Codex."
 			]
 			entity_vis_size: 1.0f
 			id: "5B0D239749C046E6"
