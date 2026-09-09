@@ -1,0 +1,25 @@
+{
+    "name": "Simply Tents",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:travel",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "There are times on your travels where you will, for lack of a better term, need something from back home. It’s hard to be prepared with every crafting station that you’d need before going on an expedition, and even more so if preparing isn’t your strong suit. Well, worry about a premature backtrack no longer! With one of these simple tents in your pack while you travel, you can set up a home away from home, filled with all of the implements that you desire!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Just plop the tent down, place your desired blocks within, and once you pick it up and place it again, all of your things will be right where you left them! There are multiple varieties, so choose the one that best suits your purposes. The next couple of pages have a few of the tents available, but there are other variants that aren't listed here."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "simplytents:ziptent",
+            "recipe2": "simplytents:walltent"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "simplytents:rooftent",
+            "recipe2": "simplytents:smalltipitent"
+        }
+    ]
+}

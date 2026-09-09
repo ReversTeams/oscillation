@@ -1,0 +1,15 @@
+{
+    "name": "Sleeping Bags",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:travel",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "If setting up your tent for the night is too inconvenient at a given moment, we get it. Sometimes, you just want to head straight to sleep (without setting your spawn point) so that you can get back to whatever you were working on. In that case, the sleeping bag is just the item for you! They roll out extremely easily and pack themselves up quickly too. Having one on hand lets you can snooze the night away anywhere!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "comforts:sleeping_bag_white"
+        }
+    ]
+}

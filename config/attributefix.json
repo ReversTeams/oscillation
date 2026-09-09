@@ -506,6 +506,17 @@
         "value": 100
       }
     },
+    "aquamirae:depths_resilience": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 2,
+        "value": 2
+      }
+    },
     "irons_spellbooks:ice_magic_resist": {
       "enabled": false,
       "min": {
@@ -757,6 +768,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "aquamirae:depths_fury": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 2,
+        "value": 2
       }
     },
     "attributeslib:dodge_chance": {

@@ -1,0 +1,15 @@
+{
+    "name": "Dodge Roll",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:combat",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "While the amount of preliminary training was at a minimum for this course, you may recall that we did teach you how to dodge roll! This skill can be extremely helpful in almost every combat scenario, allowing for quick repositioning and evading damage during the duration."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "As with all other applicants, you are able to store 2 roll charges before needing to recharge, though some equipment you will come across on your journey may increase that number. By default, this ability is bound to Z."
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Travel Anchors",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:travel",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "While wandering the land and appreciating your surroundings is one of life’s greatest gifts, on occasion travel can get slightly… grating, given the wrong circumstances. That’s why our brightest minds at the Makyr Collective have come up with a simple solution to hasten any trip! Just plop down one of these Travel Anchors (which are rather cheap, given their incredible strength) at a spot you desire to return to. Then, from up to 500 blocks away, you can instantly teleport to the anchor with your Travel Wand! You can even chain these anchors together to increase your potential trek distance as long as they’re within range of each other."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "travelanchors:travel_staff",
+            "recipe2": "travelanchors:travel_anchor"
+        }
+    ]
+}

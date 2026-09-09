@@ -1,0 +1,16 @@
+{
+    "name": "Via Romana",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:base_construction",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "While Travel Anchors may be very convenient for long distances, they may feel excessive when wanting to travel across short but inconvenient distances, like from one point of your base to the other. Well, there is a natural solution in creating a path via Romana magicks! While traveling down a path consisting of infrastructure-based materials, if you chart the path with a Charting Map you will create an invisible line that goes over the whole length of the path."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "via_romana:charting_map",
+            "text": "To get more info, create the Charting Map and check out its tutorial. It's very neat!"
+        }
+    ]
+}

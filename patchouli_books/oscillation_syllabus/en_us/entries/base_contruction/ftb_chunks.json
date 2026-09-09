@@ -1,0 +1,15 @@
+{
+    "name": "FTB Chunks",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:base_construction",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "If you wish to ensure that your base is safe from other students with more delinquent-ish tendencies or just want to keep a machine running while you aren’t looking at it, we’ve got you covered!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Just claim the chunk via the menu found at the top left of your inventory to protect it from those who don’t have permission. Afterwards, you can shift click your claim in order to force those chunks to remain loaded, even while you’re away. How does it work? Well, perhaps another professor could teach this, because I’m not really sure how the technology works myself! Ha ha."
+        }
+    ]
+}

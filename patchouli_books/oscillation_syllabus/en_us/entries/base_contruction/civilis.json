@@ -1,0 +1,15 @@
+{
+    "name": "Civilis",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:base_construction",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Now, this isn’t actually part of something that we set up for you, but after conducting some studies, we discovered that monsters are actually less likely to spawn in areas that have a lot of proof of habitation!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "We don’t know exactly why this is the case, but if you have a lot of human-made blocks lying around, i.e. various crafting stations and machines, your base will naturally become less prone to creepy crawlies appearing nearby during the night. Neat!"
+        }
+    ]
+}
