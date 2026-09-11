@@ -5,7 +5,7 @@
 	group: ""
 	icon: "embers:ember_crystal"
 	id: "348A82A32CF51E74"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -1012,11 +1012,7 @@
 			}]
 			tasks: [{
 				id: "6D8BE7E8776A246B"
-				item: {
-					Count: 1
-					id: "embers:inflictor_gem"
-					tag: { }
-				}
+				item: "embers:inflictor_gem"
 				type: "item"
 			}]
 			x: -0.5d

@@ -1,6 +1,17 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:the_deep_void:flesh_parasite",
+    "item:the_deep_void:bloodstone",
+    "item:block_factorys_bosses:ice_gauntlet{Damage:0}",
+    "item:thermal:device_fisher",
+    "item:industrialforegoing:marine_fisher",
+    "item:the_deep_void:bone_crawler_molt_piece",
+    "item:mowzies_cataclysm:wrought_eye",
+    "item:expatternprovider:fishbig",
+    "item:ae2:matter_ball",
+    "item:ae2:condenser",
+    "item:ae2:light_blue_paint_ball",
     "item:simplytents:small_tipi_tent",
     "item:simplytents:zip_tent",
     "item:comforts:sleeping_bag_white",
@@ -29,11 +40,6 @@
     "item:alexscaves:frostmint",
     "item:the_deep_void:golden_regurgitated_matter",
     "item:the_deep_void:regurgitated_matter",
-    {
-      "type": "item",
-      "id": "the_deep_void:bone_crawler_molt_piece",
-      "amount": 8
-    },
     "item:the_deep_void:primordial_crawler_treasure_bag",
     "item:the_deep_void:bone_crawler_claw{Damage:0}",
     "item:the_deep_void:ancient_gun_part",

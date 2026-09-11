@@ -775,11 +775,7 @@
 			id: "1747E76335E239ED"
 			rewards: [{
 				id: "48BD9BB5F461F18A"
-				item: {
-					Count: 1
-					id: "explorerscompass:explorerscompass"
-					tag: { }
-				}
+				item: "explorerscompass:explorerscompass"
 				type: "item"
 			}]
 			tasks: [{
@@ -1257,5 +1253,5 @@
 			y: 32.5d
 		}
 	]
-	title: "First Try"
+	title: "First Try (old)"
 }
