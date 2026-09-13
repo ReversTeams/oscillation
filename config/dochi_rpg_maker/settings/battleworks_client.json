@@ -1,0 +1,25 @@
+{
+  "editorPanels": {
+    "listWidth": 200,
+    "inspectorWidth": 320,
+    "clipWidth": 168,
+    "sceneFraction": -1.0,
+    "listCollapsed": false,
+    "inspectorCollapsed": false,
+    "sceneCollapsed": false,
+    "timelineCollapsed": false,
+    "clipsCollapsed": false
+  },
+  "lockRange": 32.0,
+  "lockConeDegrees": 38.0,
+  "lockMarkerColor": -1781153,
+  "lockMarkerStyle": "brackets",
+  "lockMarkerScale": 1.0,
+  "lockMarkerAnimated": false,
+  "trailEnabled": true,
+  "trailPrimaryColor": -11414,
+  "trailSecondaryColor": 16740424,
+  "trailDurationMs": 240,
+  "trailWidth": 4,
+  "disableVanillaMusic": false
+}
