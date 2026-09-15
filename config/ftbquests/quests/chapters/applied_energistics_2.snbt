@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6FA0EC5040987978"]
+			dependencies: ["3F784F72BB732754"]
 			description: [
 				"An ME Drive allows you to place storage cells into it to give your ME system storage space."
 				""
@@ -45,7 +45,7 @@
 			]
 			title: "Basics of ME"
 			x: -0.5d
-			y: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7E547D51D949CF94"]
@@ -80,8 +80,8 @@
 				item: "ae2:crystal_resonance_generator"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.5d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			entity_vis_size: 1.0f
@@ -212,7 +212,7 @@
 				}
 			]
 			x: -2.0d
-			y: -0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1C754754D9584C04"]
@@ -232,7 +232,7 @@
 				}
 			]
 			x: -3.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["634D15C341B60152"]
@@ -252,7 +252,7 @@
 				}
 			]
 			x: -4.0d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["68B1AA5E66D1D7F0"]
@@ -271,8 +271,8 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: 1.0d
+			x: -4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6B3FEAB438422A66"]
@@ -290,8 +290,442 @@
 					type: "item"
 				}
 			]
-			x: -6.5d
-			y: 1.5d
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D6081B8A352EF44"]
+			entity_vis_size: 1.0f
+			id: "6DF6A5102E7F7ECD"
+			tasks: [
+				{
+					id: "1410E911B3E4E3DE"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+				{
+					id: "12D43AFE092362E2"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					id: "4E817015A946B19D"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D6081B8A352EF44"]
+			entity_vis_size: 1.0f
+			id: "6B6B5B0271282046"
+			tasks: [{
+				id: "4AB23D65631895EB"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6FA0EC5040987978"]
+			entity_vis_size: 1.0f
+			id: "4D091F2F435CED4D"
+			tasks: [{
+				id: "4AFAE89421D01005"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D091F2F435CED4D"]
+			entity_vis_size: 1.0f
+			id: "3F784F72BB732754"
+			tasks: [
+				{
+					id: "38000CDD99C2529C"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "4C95EDA51E67F04A"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "385254DD6CCDA855"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "Processors"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["520EBB0AF987615B"]
+			entity_vis_size: 1.0f
+			id: "13ACFFA0540090F0"
+			tasks: [
+				{
+					id: "2450EA83651B5BC9"
+					item: {
+						Count: 1
+						id: "ae2:fluix_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BC24A6037FEF0F6"
+					item: {
+						Count: 1
+						id: "ae2:fluix_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F7D928293041053"
+					item: {
+						Count: 1
+						id: "ae2:fluix_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "605FAAAB4F27A069"
+					item: {
+						Count: 1
+						id: "ae2:fluix_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A62C4E523EF66ED"
+					item: {
+						Count: 1
+						id: "ae2:fluix_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Fluix Tools"
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7E547D51D949CF94"]
+			entity_vis_size: 1.0f
+			id: "4550846EEDFAAC7E"
+			tasks: [
+				{
+					id: "3A55F0E002DEDC52"
+					item: "ae2:flawed_budding_quartz"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "75A74DFC0D696B30"
+					item: "ae2:chipped_budding_quartz"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "33A49AB3AB7B2087"
+					item: "ae2:damaged_budding_quartz"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "64D49257DBB8DD25"
+					item: "ae2:growth_accelerator"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6B6B5B0271282046"]
+			entity_vis_size: 1.0f
+			id: "36D148FF03D07CCA"
+			tasks: [
+				{
+					id: "365518A4ADC6D1CD"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "0A4A00DB85FB2767"
+					item: "ae2:wireless_terminal"
+					type: "item"
+				}
+				{
+					id: "00041FABDAEC6FF9"
+					item: "ae2:wireless_booster"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Wireless Terminals"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6B6B5B0271282046"]
+			description: ["Wireless Connections"]
+			entity_vis_size: 1.0f
+			id: "27E2B78DF96E639C"
+			tasks: [
+				{
+					id: "668339724854AA00"
+					item: "expatternprovider:wireless_connect"
+					type: "item"
+				}
+				{
+					id: "0B76409EE508B779"
+					item: "expatternprovider:wireless_hub"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Wireless Connections"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6B6B5B0271282046"]
+			entity_vis_size: 1.0f
+			id: "6A7AC941D637B087"
+			tasks: [
+				{
+					id: "1BDE710315C32714"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "76504B5BE52E443F"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					id: "0E56FCDE4C8823A9"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "06FD7CA9FE6AD31D"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "12D2EFFC1FC67E2F"
+					item: "ae2:1k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "1523A71AD4156AAC"
+					item: "ae2:crafting_accelerator"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6B6B5B0271282046"]
+			entity_vis_size: 1.0f
+			id: "4F933B595A565DBD"
+			tasks: [
+				{
+					id: "2C0E8DC370CA871B"
+					item: "ae2:spatial_io_port"
+					type: "item"
+				}
+				{
+					id: "41D48E8C47501C5F"
+					item: "ae2:spatial_pylon"
+					type: "item"
+				}
+				{
+					id: "290444CB6695D4CD"
+					item: "ae2:spatial_storage_cell_2"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6B6B5B0271282046"]
+			entity_vis_size: 1.0f
+			id: "4AC2AE18AFCE3242"
+			tasks: [{
+				id: "3BC6837291676BD9"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4AC2AE18AFCE3242"]
+			entity_vis_size: 1.0f
+			id: "7E94933D2025E98B"
+			tasks: [
+				{
+					id: "3D3E6E03E44EAA4C"
+					item: "ae2:singularity"
+					type: "item"
+				}
+				{
+					id: "4F09CC24BD7D78D7"
+					item: "ae2:matter_ball"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7E94933D2025E98B"]
+			entity_vis_size: 1.0f
+			id: "13E9DE0656A1D243"
+			tasks: [
+				{
+					id: "371A13756B5B262B"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					id: "4005EF843A242A0B"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					id: "5491B60D871B14FB"
+					item: "ae2:quantum_entangled_singularity"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["13E9DE0656A1D243"]
+			entity_vis_size: 1.0f
+			id: "0E2457CBC5C05870"
+			tasks: [{
+				id: "18D8B86CC06A4F10"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7E94933D2025E98B"]
+			entity_vis_size: 1.0f
+			id: "6AAA230BCEA50BC2"
+			tasks: [{
+				id: "1AE30E59DD180764"
+				item: "advanced_ae:reaction_chamber"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6AAA230BCEA50BC2"]
+			entity_vis_size: 1.0f
+			id: "46ABE6E85B448903"
+			tasks: [
+				{
+					id: "6BC427FA701A56CB"
+					item: "advanced_ae:quantum_alloy"
+					type: "item"
+				}
+				{
+					id: "57B0A26DF01F7FA9"
+					item: "advanced_ae:quantum_alloy_plate"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["46ABE6E85B448903"]
+			entity_vis_size: 1.0f
+			id: "3919F474B61655DC"
+			tasks: [
+				{
+					id: "2F8B7D884CE636A9"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FAB85228AC53C43"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "237E55973D0E692E"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53DB3D308F1519C0"
+					item: {
+						Count: 1
+						id: "advanced_ae:quantum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 7.5d
 		}
 	]
 	title: "Applied Energistics 2"
