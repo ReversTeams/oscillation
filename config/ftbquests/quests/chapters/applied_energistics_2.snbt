@@ -5,10 +5,11 @@
 	group: ""
 	icon: "ae2:drive"
 	id: "06C6A44F7F8C929D"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6FA0EC5040987978"]
 			description: [
 				"An ME Drive allows you to place storage cells into it to give your ME system storage space."
 				""
@@ -44,9 +45,10 @@
 			]
 			title: "Basics of ME"
 			x: -0.5d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["7E547D51D949CF94"]
 			description: ["The guide book for Applied Energistics 2."]
 			entity_vis_size: 1.0f
 			id: "08F9EBEE1015C7A9"
@@ -60,8 +62,8 @@
 				item: "ae2:guide"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0D6081B8A352EF44"]
@@ -79,7 +81,217 @@
 				type: "item"
 			}]
 			x: -0.5d
+			y: 0.5d
+		}
+		{
+			entity_vis_size: 1.0f
+			id: "0868E1929B11F19B"
+			tasks: [{
+				id: "56A92F0D3E2DD336"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7E547D51D949CF94"]
+			entity_vis_size: 1.0f
+			id: "6FA0EC5040987978"
+			tasks: [{
+				id: "1A4EBA620633C010"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0868E1929B11F19B"]
+			entity_vis_size: 1.0f
+			id: "7E547D51D949CF94"
+			tasks: [{
+				id: "073CB7C3C790AEEC"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0868E1929B11F19B"]
+			entity_vis_size: 1.0f
+			id: "520EBB0AF987615B"
+			tasks: [
+				{
+					id: "43EE6CF6EE820845"
+					item: {
+						Count: 1
+						id: "ae2:certus_quartz_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59C867806912A35B"
+					item: {
+						Count: 1
+						id: "ae2:certus_quartz_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52555EAF2E6AFD56"
+					item: {
+						Count: 1
+						id: "ae2:certus_quartz_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77E2E9B53666D5E5"
+					item: {
+						Count: 1
+						id: "ae2:certus_quartz_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69B7657390996F75"
+					item: {
+						Count: 1
+						id: "ae2:certus_quartz_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BF7EC39F5EE0B36"
+					item: {
+						Count: 1
+						id: "ae2:certus_quartz_cutting_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Certus Quartz Tools"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0D6081B8A352EF44"]
+			entity_vis_size: 1.0f
+			id: "1C754754D9584C04"
+			tasks: [
+				{
+					id: "29CAF179ED8849A4"
+					item: "ae2:cell_component_1k"
+					type: "item"
+				}
+				{
+					id: "1DA25EB10A23FBDB"
+					item: "ae2:item_storage_cell_1k"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C754754D9584C04"]
+			entity_vis_size: 1.0f
+			id: "634D15C341B60152"
+			tasks: [
+				{
+					id: "3B2DE76B66F2323F"
+					item: "ae2:cell_component_4k"
+					type: "item"
+				}
+				{
+					id: "432AFCE2CF37521D"
+					item: "ae2:item_storage_cell_4k"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -3.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["634D15C341B60152"]
+			entity_vis_size: 1.0f
+			id: "68B1AA5E66D1D7F0"
+			tasks: [
+				{
+					id: "1D4E3A1B35FC24ED"
+					item: "ae2:cell_component_16k"
+					type: "item"
+				}
+				{
+					id: "4F3FA450712A5D2A"
+					item: "ae2:item_storage_cell_16k"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68B1AA5E66D1D7F0"]
+			entity_vis_size: 1.0f
+			id: "6B3FEAB438422A66"
+			tasks: [
+				{
+					id: "67758D106B19217E"
+					item: "ae2:cell_component_64k"
+					type: "item"
+				}
+				{
+					id: "7A79A26C9444FB90"
+					item: "ae2:item_storage_cell_64k"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6B3FEAB438422A66"]
+			entity_vis_size: 1.0f
+			id: "320B0C4329F744BE"
+			tasks: [
+				{
+					id: "78D3196FC85C589C"
+					item: "ae2:cell_component_256k"
+					type: "item"
+				}
+				{
+					id: "1E0AD264F61D1523"
+					item: "ae2:item_storage_cell_256k"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 1.5d
 		}
 	]
 	title: "Applied Energistics 2"
