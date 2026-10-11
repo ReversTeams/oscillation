@@ -12,4 +12,11 @@ fullBright = true
 idleAnimation = true
 #Should mobs play walk animation?
 walkAnimation = false
+#Cycle through every entity of an entity type tag?
+tagCycle = true
+#Seconds each entity of a tag, or each NBT variant, is shown before cycling.
+#Range: 0.1 ~ 60.0
+tagCycleSeconds = 2.0
+#Render entity icons inside Fancy Toasts quest notifications?
+toastEntityIcons = true
 

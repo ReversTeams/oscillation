@@ -63,6 +63,8 @@
 		fireHeartOnAbsorption = true
 		#Allow fire while the player has modded status effects.
 		fireHeartOnModdedEffects = true
+		#Allow fire on hearts while Regeneration is active.
+		fireHeartOnRegeneration = true
 
 	[AnimatedHearts.StatusEffects]
 		#Fade the vanilla frozen-heart sprite in and out continuously as Minecraft's freeze meter changes.
@@ -105,6 +107,16 @@
 		absorptionSolarGradientStrength = 1.0
 		#Enable the custom regeneration wave and heart bounce effect.
 		customRegenerationEffect = true
+		#Use the green poison flame palette while poisoned. Disable to keep normal red-orange fire.
+		poisonColoredFire = true
+		#Use the red-pink regeneration flame palette while Regeneration is active. Disable to keep normal red-orange fire.
+		regenerationColoredFire = true
+		#Use the black wither flame palette while Wither is active. Disable to keep normal red-orange fire.
+		witherColoredFire = true
+		#Use the icy-blue frozen flame palette on frozen hearts. Disable to keep normal red-orange fire.
+		frozenColoredFire = true
+		#Use the golden flame palette on absorption hearts. Disable to keep normal red-orange fire.
+		absorptionColoredFire = true
 
 	[AnimatedHearts.HealthFeedback]
 		#Enable the soft pulse on remaining health hearts at 4 HP or lower.
@@ -172,6 +184,11 @@
 		#Brightness of the silver shine across the armor icons.
 		#Range: 0.0 ~ 1.0
 		fullArmorShineStrength = 0.9
+		#Smoothly move the armor HUD when absorption adds or removes heart rows
+		armorShiftAnimation = true
+		#Speed of the armor HUD row transition. Higher values are faster
+		#Range: 0.25 ~ 4.0
+		armorShiftSpeed = 1.0
 
 	[AnimatedHearts.ExperienceEffects]
 		#Play a moving wave across the experience bar whenever the configured level milestone is reached.

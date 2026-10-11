@@ -66,17 +66,6 @@
         "value": 100
       }
     },
-    "attributeslib:armor_shred": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2,
-        "value": 2
-      }
-    },
     "irons_spellbooks:nature_spell_power": {
       "enabled": false,
       "min": {
@@ -86,6 +75,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "attributeslib:armor_shred": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
       }
     },
     "irons_spellbooks:nature_magic_resist": {
@@ -309,6 +309,17 @@
       }
     },
     "forge:block_reach": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "irons_lib:projectile_damage": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -792,17 +803,6 @@
         "value": 1
       }
     },
-    "attributeslib:fire_damage": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1000,
-        "value": 1000
-      }
-    },
     "irons_spellbooks:ice_spell_power": {
       "enabled": false,
       "min": {
@@ -812,6 +812,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "attributeslib:fire_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "minecraft:generic.attack_knockback": {

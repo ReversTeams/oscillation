@@ -17,7 +17,7 @@
 	#At which Y level should the structure in the Overworld generate (this needs to be at the deepest layer where bedrock generates)
 	HoleStructureY = -64.0
 	#If crumbling bedrock should generate in the overworld
-	CrumblingBedrockGenerate = false
+	CrumblingBedrockGenerate = true
 	GenerateCabin = true
 
 [Spawns]
@@ -44,6 +44,10 @@
 	StalkerLightLevel = 1.0
 	#If the False Hydra should spawn when the player has brain fog
 	FalseHydraFromBrainFog = true
+	#In ticks
+	UndertakerSpawnTimer = 24000.0
+	UndertakerSpawnChance = 0.5
+	SpawnUndertaker = true
 
 [Misc]
 	#Whether the ''Seek Light'' warning should appear when the Stalker is close or not (Happens only one time)
@@ -79,8 +83,8 @@
 	#If bosses should have damage caps
 	DoDamageCap = false
 	#How much armor should the broken armor effect remove (percentage removed)
-	BrokenArmorAmplifier = 0.35
-	GiveWikiBook = false
+	BrokenArmorAmplifier = 0.65
+	GiveWikiBook = true
 	#If the bosses' health should scale based on the number of players
 	DoBossHpScaling = true
 	#How many hits it takes before the Voidborn disappears (damage is irrelevant)
@@ -88,9 +92,9 @@
 	#How long before the Voidborn can get hit again (in ticks)
 	VoidbornHitCooldown = 60.0
 	#If bosses should go back to idling when there are no players nearby
-	BossIdles = false
+	BossIdles = true
 	#If brain fog should be applied to the player when in the misted remnants
-	DoBrainFog = false
+	DoBrainFog = true
 	#If the false hydra should remove brain fog when it is killed
 	FalseHydraRemovesBrainFog = true
 	#In ticks
@@ -110,7 +114,7 @@
 
 ["Apostle Of Catastrophe"]
 	#Damage of each knife (velocity increases that number)
-	ApostleThreeKnives = 4.0
+	ApostleThreeKnives = 5.0
 	ApostleBigSlash = 16.0
 	#Damage of each knife (velocity increases that number)
 	ApostleJumpShoot = 7.0
@@ -158,7 +162,7 @@
 	#Damage dealt to the boss when the saw thrower or the skull smasher dies
 	HivemindDamageFromSummon = 10.0
 	#The force with which the hivemind sucks the player in
-	HivemindPullIntensity = 0.028
+	HivemindPullIntensity = 0.024
 
 ["Primordial Bone Crawler"]
 	#Damage
@@ -179,8 +183,8 @@
 [Weapons]
 	#Initial damage & damage dealt by the daggers
 	ForbiddenTome = 6.0
-	#Damage dealt in an AOE
-	CruelStiletto = 5.0
+	#Backstab multiplier
+	CruelStiletto = 2.0
 	#Damage dealt by the small arrows
 	ShadestormShadeArrow = 2.0
 	#Damage dealt by the big arrow in an AOE (+ original damage)
@@ -242,7 +246,7 @@
 	#The damage dealt to the player upon shooting themselves (ignores armor)
 	PerilSelfDamage = 18.0
 	#Adrenaline is multiplied by that value, which is then used to multiply the projectile's damage
-	PerilDamageMultiplier = 3.0
+	PerilDamageMultiplier = 2.5
 	#Damage (velocity increases that number)
 	Peril = 2.8
 	#The attack damage bonus
@@ -264,24 +268,17 @@
 	#Damage (ignores i-frames)
 	DoubleBarrelShotgun = 0.7
 	PerilShowAdrenaline = true
+	CoffinDoom = 10.0
 
 ["Hive's Watcher"]
-	#Damage each tick
+	#Damage upon colliding with the boss
 	HiveWatcherWhileMoving = 10.0
 	#Damage per projectile
 	HiveWatcherSpit = 8.0
-	#Percentage change of spawning bone spikes
-	HiveWatcherSpikeSpawn = 0.18
-	#Percentage change of spawning fangs
-	HiveWatcherFangsSpawn = 0.2
 	#How long the bone spike attack lasts (in ticks)
 	HiveWatcherSpikeDuration = 70.0
-	#The frequency at which the bone spikes spawn (in ticks)
-	HiveWatcherSpikeFrequency = 5.0
 	#Damage when the player is near the spike
 	HiveWatcherSpike = 8.0
-	#Size of the damaging zone around the boss while it's moving
-	HiveWatcherAttackRadius = 6.0
 
 ["Masked Hunter"]
 	#The cooldown before a Masked Hunter can spawn naturally (In ticks, 24,000 ticks is one day)
@@ -308,11 +305,15 @@
 	HydraSlideSpeed = 0.4
 	HydraSlideDamage = 8.0
 	#Damage
-	HydraMultiHit = 8.0
+	HydraMultiHit = 6.0
 	#Damage of the projectile
 	HydraBoulder = 10.0
 	#In ticks
 	HydraSingingDespawnTimer = 2000.0
 	#The amount of encounters that is required before the false hydra spawns (-1)
 	SpawnHydraRequiredEncounter = 3.0
+
+["Flesh Worm"]
+	#In ticks
+	FleshWormSpikeDuration = 70.0
 

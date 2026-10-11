@@ -28,4 +28,6 @@
 	advancement_self = 10
 	#Maximum number of Demesne perks that can be chosen.
 	demesnes_perk_count = 10
+	#Does breaking positive bindings anger the mob? Tamed mobs will not be angered regardless.
+	positive_binding_anger = true
 
