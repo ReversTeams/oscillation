@@ -99,6 +99,8 @@
 	FalseHydraRemovesBrainFog = true
 	#In ticks
 	BrainFogDuration = 2000.0
+	#The limit for how many modification templates can be added to an item
+	ModificationTemplateLimit = 5.0
 
 ["Gameplay Changes"]
 	#The player spawns in the Deep Void
@@ -141,6 +143,7 @@
 	ApostleChainDistance = 28.0
 	#How far the player has to be (y position) for the apostle to use his chain attack
 	ApostleChainYDistance = 4.0
+	ApostleStomp = 12.0
 
 ["Misanthropic Hivemind"]
 	#Damage each tick
@@ -269,6 +272,9 @@
 	DoubleBarrelShotgun = 0.7
 	PerilShowAdrenaline = true
 	CoffinDoom = 10.0
+	Vehemence = 3.0
+	#Damage added to the projectile every time it pierces a target
+	VehemencePierce = 2.0
 
 ["Hive's Watcher"]
 	#Damage upon colliding with the boss

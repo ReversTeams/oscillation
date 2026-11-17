@@ -1,0 +1,21 @@
+
+#Common Configs || This config file offer controls to many different things on the mod.
+#Changing something you don't know about, might break your game.
+[common]
+
+	[common.general]
+		#Show welcome message || Default: true
+		welcome_message = true
+
+	[common.boss]
+		#Whether certain bosses require story progression from the player (or a nearby player) before they can be fought.
+		#For example, to spawn Zaevorath one must have first killed the Nightwarden.
+		#Default: true
+		boss_spawn_requires_story_progression = true
+
+	[common.effect]
+		#List of effect IDs that are immune to Rainfall cleanse || Example: ["minecraft:blindness", "minecraft:darkness"]
+		rainfall_immune_effects = []
+		#List of effect IDs that are immune to Acid Rain cleanse || Example: ["minecraft:absorption", "minecraft:health_boost"]
+		acid_rain_immune_effects = []
+

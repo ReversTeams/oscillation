@@ -66,17 +66,6 @@
         "value": 100
       }
     },
-    "irons_spellbooks:nature_spell_power": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "attributeslib:armor_shred": {
       "enabled": false,
       "min": {
@@ -86,6 +75,17 @@
       "max": {
         "default": 2,
         "value": 2
+      }
+    },
+    "irons_spellbooks:nature_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "irons_spellbooks:nature_magic_resist": {
@@ -130,6 +130,28 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "gtbcs_spell_lib:spell_crit_damage": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
+    "gtbcs_spell_lib:healing_received": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "minecraft:generic.luck": {
@@ -198,6 +220,17 @@
         "value": 100
       }
     },
+    "gtbcs_spell_lib:spell_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "eidolon:chanting_speed": {
       "enabled": false,
       "min": {
@@ -207,6 +240,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "gtbcs_spell_lib:magic_projectile_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "irons_spellbooks:casting_movespeed": {
@@ -759,6 +803,17 @@
         "value": 100
       }
     },
+    "gtbcs_spell_lib:damage_taken": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "irons_spellbooks:cooldown_reduction": {
       "enabled": false,
       "min": {
@@ -803,17 +858,6 @@
         "value": 1
       }
     },
-    "irons_spellbooks:ice_spell_power": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "attributeslib:fire_damage": {
       "enabled": false,
       "min": {
@@ -823,6 +867,17 @@
       "max": {
         "default": 1000,
         "value": 1000
+      }
+    },
+    "irons_spellbooks:ice_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "minecraft:generic.attack_knockback": {
@@ -858,6 +913,17 @@
         "value": 10
       }
     },
+    "gtbcs_spell_lib:elemental_permeability": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "irons_spellbooks:fire_magic_resist": {
       "enabled": false,
       "min": {
@@ -870,6 +936,17 @@
       }
     },
     "irons_spellbooks:eldritch_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "traveloptics:aqua_spell_power": {
       "enabled": false,
       "min": {
         "default": -100,
@@ -914,6 +991,17 @@
       }
     },
     "irons_spellbooks:blood_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "traveloptics:aqua_magic_resist": {
       "enabled": false,
       "min": {
         "default": -100,
@@ -977,6 +1065,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "gtbcs_spell_lib:summon_health": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "minecraft:generic.armor": {
@@ -1065,6 +1164,17 @@
       "max": {
         "default": 512,
         "value": 512
+      }
+    },
+    "gtbcs_spell_lib:spell_crit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 2,
+        "value": 2
       }
     },
     "attributeslib:arrow_damage": {
