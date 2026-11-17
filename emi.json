@@ -1,6 +1,8 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:industrialforegoing:ore_laser_base",
+    "item:industrialforegoing:laser_drill",
     "item:ae2:quantum_entangled_singularity",
     {
       "type": "item",
