@@ -3,8 +3,8 @@
 
 LootJS.modifiers((event) => {
     event
+        // Add drop to ferrous.
         .addEntityLootModifier("mowziesmobs:ferrous_wroughtnaut")
-        .addWeightedLoot(64, [
-            Item.of("minecraft:iron_ingot").withChance(100),
-        ]);
+        // Drop is the ember bore.
+        .addLoot("embers:mechanical_core");
 });

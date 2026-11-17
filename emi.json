@@ -1,6 +1,15 @@
 {
   "favorites": [],
   "lookup_history": [
+    "item:embers:ember_bore",
+    "item:embers:mechanical_core",
+    "item:thermal:drill_head",
+    "item:botania:crafting_halo",
+    "item:embers:caminite_blend",
+    "item:embers:caminite_brick",
+    "item:embers:caminite_bricks",
+    "item:thermal:lead_plate",
+    "#item:forge:plates/lead",
     "item:industrialforegoing:ore_laser_base",
     "item:industrialforegoing:laser_drill",
     "item:ae2:quantum_entangled_singularity",
